@@ -5,15 +5,6 @@ import { mdsvex } from 'mdsvex'
 import { escapeSvelte } from 'mdsvex'
 import { getHighlighter } from 'shiki'
 
-/** @type {import('@sveltejs/kit').Config} */
-const config = {
-	extensions: ['.svelte', '.md'],
-	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
-	kit: {
-		adapter: adapter()
-	}
-}
-
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
 	extensions: ['.md'],
@@ -28,6 +19,15 @@ const mdsvexOptions = {
 			return `{@html \`${html}\` }`
 		}
 	},
+}
+
+/** @type {import('@sveltejs/kit').Config} */
+const config = {
+	extensions: ['.svelte', '.md'],
+	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
+	kit: {
+		adapter: adapter()
+	}
 }
 
 export default config
