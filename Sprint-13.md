@@ -43,3 +43,29 @@ Creative Coding met Javascript
 import { fade } from 'svelte/transition'
 
 transition:fade={{ duration: 250 }}
+
+Een epic, een handige manier om werk te organiseren en een hierarchie te creeren. Het idee is om werk op te splitsen in opleverbare stukken, zodat grote projecten kunnen worden afgerond en klanten op regelmatige basis waarde krijgen.
+
+Een paar voorbeelden hiervan zijn:
+
+een nieuwe ecommerce website lanceren voor de kruidvat
+de website van het minesterie van gezondheid verbeteren
+de nieuwe website lanceren van het HvA
+argumented reality toevoegen aan de website van de intertoys
+
+Uit epics komen stories:
+
+een winkelmandje toevoegen
+betalingsmogelijkheiden toevoegen
+een klantenserviceportal toevoegen
+
+Deze stories zijn moeilijk in te schatten qua tijd, daarom moet je het opsplitsen in kleinere taken die wel in te schatten zijn.
+
+Userstories zijn gerichter:
+
+Een winkelmandje toevoegen:
+- als bezoeker, wil ik producten in mijn winkelmandje kunnen doen om overzicht te houden wat ik aanschaf.
+- als bezoeker, wil ik producten kunnen verwijderen uit mijn winkelmandje als ik iets gevonden heb wat beter past bij wat ik nodig heb.
+- als bezoeker, wil ik overzicht houden op het uit te geven bedrag zodat ik het gevoel heb in controle te zijn.
+
+Kortom, EPIC is een groots idee, deze verklein je door STORIES te maken, maar ook die zijn vrij groot, daarom schrijf je USERSTORIES om alles te definieren.

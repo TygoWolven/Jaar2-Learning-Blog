@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Footer from './footer.svelte'
-	import Header from './header.svelte'
+	import Footer from '$lib/+Footer.svelte'
+	import Header from '$lib/+Header.svelte'
 
 	import 'open-props/style'
 	import 'open-props/normalize'
