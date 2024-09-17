@@ -8,7 +8,14 @@ categories:
 published: true
 ---
 
+<script>
+    import ProximalChart from "$lib/assets/image.png"
+</script>
+
 ## Getting started with Directus and Sveltekit
+In de eerste week van sprint 13 ben ik gaan experimenteren met het opstarten van een svelte project. Hierbij heb ik 
+in de Terminal van Visual Studio Code een aantal commands ingevoerd waarmee ik het skelet van het project kon opzetten. 
+<br>
 
 ````ts
 npm create svelte@latest project-naam
@@ -19,82 +26,45 @@ cd project-naam
 npm install
 npm run dev
 ````
+Om verder een beetje kennis te maken met Directus en Sveltekit ben ik een aantal tutorials gaan volgen.
+Zo heb ik een tutorial gevolgd genaamd: "Getting started with Directus and Sveltekit". En een tutorial 
+via de website genaamd: "learn.svelte.dev". Dit is een vrij uitgebreide tutorial waar je wel eventjes 
+zoet mee bent. Het bestaat uit 4 delen, ieder opgedeeld in kleine onderwerpen. De eerste 2 delen gaan 
+over Svelte, en de laatste 2 delen gaan over Sveltekit.
 
-Ons eerste huiswerk ging om het kennismaken met Directus en Sveltekit . Hierbij moesten we een tutorial 
-volgen genaamd: "Getting started with Directus and Sveltekit". Tijdens het volgen van de stappen kwam ik 
-vast te lopen op het deel waarop mijn data getoond zou moeten worden. Ik kreeg dat maar niet voor elkaar, 
-mogelijk had dat te maken met dat de Directus omgeving niet goed is ingesteld.
+## The Zone of Proximal Development
+Ik heb tijdens een les van Justus een nieuwe term geleerd, namelijk "The Zone of Proximal Development". Dit wil zeggen
+dat er bepaalde leergebieden zijn met allemaal een eigen moeilijkheidsgraad. Over het algemeen bestaat dit begrip uit 3 zones.
+Deze zones zal ik toelichten aan de hand van deze afbeelding:
+<br>
+<img alt="The Zone of Proximal Development" src={ProximalChart} />
+<figcaption><i>The Zone of Proximal Development</i></figcaption>
 
-Omdat ik hier vast liep, ben ik begonnen met een andere Tutorial over Sveltekit. Namelijk 'learn.svelte.dev', 
-dit is een vrij uitgebreide tutorial waar je wel eventjes zoet mee bent. Het bestaat uit 4 delen, ieder opgedeeld 
-in kleine onderwerpen. De eerste 2 delen gaan over Svelte, en de laatste 2 delen gaan over Sveltekit.
+Zo kun je ervoor kiezen om dingen te leren die binnen handbereik liggen, maar die zijn niet erg uitdagend. Je kunt er ook voor kiezen
+om heel veel uitdaging op te zoeken, maar dat valt meestal buiten je comfort en gaat je dan ook niet lukken zonder hulp. Dan heb je nog
+de zone waar je juist wel in wilt zitten, "The Zone of Proximal Development". Dit is de zone waarbij je wel wat uitdaging hebt om nieuwe 
+dingen te leren, maar dat je er zelf wel uit kan komen.
 
-In de eerste week van sprint 13 ben ik gaan experimenteren met het opstarten van een svelte project. Hierbij heb ik 
-in de Terminal van Visual Studio Code een aantal commands ingevoerd waarmee ik het skelet van het project kon opzetten. 
-Zo installeer je sveltekit en de benodigde NPM-Packages. Als je dit succesvol hebt gedaan kun je je website bekijken door 
-npm run dev uit te voeren.
+## Figma 
+Bij de Figma Workshop hebben we kennis gemaakt met verschillende shortcuts en de Auto-Layout functie om werken met Figma makkelijker te maken.
+Ik zal hier een aantal shortcuts laten zien die ik heb geleerd:
+- ``Ctrl + [ of ]`` om objecten naar een laag omhoog of omlaag te plaatsen. Als je hierbij ook nog ``Shift`` gebruikt verplaats je hem direct naar het einde.
+- ``Ctrl + G`` om objecten te groeperen, of ``Ctrl + Shift + G`` om ze niet meer te groeperen.
+- ``Alt`` om gelijkmatig objecten uit te rekken. In zowel hoogte als breedte.
 
-Ook heb ik een nieuwe term geleerd, "The Zone of Proximal Development". Dit houd in dat je bepaalde leergebieden hebt met 
-verschillende moeilijkheidsgraden. Zo kun je dingen leren die binnen handbereik liggen, maar niet erg uitdagend zijn. De 
-volgende stap is dingen leren waar je zelf moeite voor moet doen, maar wat nog wel betaalbaar is. Dat is de Zone of Proximal 
-Development waar je altijd in wil zitten. Daarna heb je nog het gebied die helemaal buiten je comfort valt wat ook veel te 
-moeilijk is op dat moment om te leren, daar wil je nooit zitten.
+Met de Auto-Layout functie kun je components maken die je makkelijk kunt hergebruiken in ieder bestand. Denk hierbij aan kaartjes, buttons etc. 
 
-Bij de Figma Workshop hebben we kennis gemaakt met verschillende shortcuts en Auto-Layout.
-Ctrl + [ of ] om objecten naar een andere laag te plaatsen.
-Ctrl + G om objecten te groeperen, of Ctrl + Shift + G om ze niet meer te groeperen.
-Alt om gelijkmatig objecten uit te rekken.
+Als je gebruik gaat maken van Artboards kun je het beste vaste maten gebruiken voor zowel Desktop als voor mobile. Zo wordt aangeraden voor Desktop
+een afmeting van ``1440 x 1028px`` te gebruiken, en voor mobile een afmeting van ``375 x 812px``.
 
-Met Auto-Layout kun je components maken die je makkelijk kunt hergebruiken.
+## Creative Coding met CSS en JS
+Binnen CSS en JS kun je leuke functies maken waarmee je je website speelser maakt. Zo heb je Snap Scrolling in CSS, waarmee je ervoor kan zorgen 
+dat bijvoorbeeld lijsten altijd centraal uitlijnen. Echter moet dit een Progressive Enhancement zijn, en geen Breaking Enhancement. Voeg dit dus 
+alleen toe als je @supports kan gebruiken. Zo herkent de browser of deze feature wordt ondersteund of niet.
 
-Desktop Artboard: 1440 x 1028
-Mobile Artboard: 375 x 812
-
-Creative Coding met CSS
-
-Snap Scrolling in CSS moet een Progressive Enhancement zijn, geen Breaking Enhacement. Dit kun je doen door gebruik te maken van @supports. Zo herkent de browser of deze feature wordt ondersteund of niet.
-
-De animation-timeline heet Happy Scroller. Deze is gebruikt in de demo van Justus. 
-
-Welkom in de Learning Journal van Tygo Wolven.
-
-Ons eerste huiswerk ging om het kennismaken met Directus en Sveltekit . Hierbij moesten we een tutorial 
-volgen genaamd: "Getting started with Directus and Sveltekit". Tijdens het volgen van de stappen kwam ik 
-vast te lopen op het deel waarop mijn data getoond zou moeten worden. Ik kreeg dat maar niet voor elkaar, 
-mogelijk had dat te maken met dat de Directus omgeving niet goed is ingesteld.
-
-Omdat ik hier vast liep, ben ik begonnen met een andere Tutorial over Sveltekit. Namelijk 'learn.svelte.dev', 
-dit is een vrij uitgebreide tutorial waar je wel eventjes zoet mee bent. Het bestaat uit 4 delen, ieder opgedeeld 
-in kleine onderwerpen. De eerste 2 delen gaan over Svelte, en de laatste 2 delen gaan over Sveltekit.
-
-In de eerste week van sprint 13 ben ik gaan experimenteren met het opstarten van een svelte project. Hierbij heb ik 
-in de Terminal van Visual Studio Code een aantal commands ingevoerd waarmee ik het skelet van het project kon opzetten. 
-Zo installeer je sveltekit en de benodigde NPM-Packages. Als je dit succesvol hebt gedaan kun je je website bekijken door 
-npm run dev uit te voeren.
-
-Ook heb ik een nieuwe term geleerd, "The Zone of Proximal Development". Dit houd in dat je bepaalde leergebieden hebt met 
-verschillende moeilijkheidsgraden. Zo kun je dingen leren die binnen handbereik liggen, maar niet erg uitdagend zijn. De 
-volgende stap is dingen leren waar je zelf moeite voor moet doen, maar wat nog wel betaalbaar is. Dat is de Zone of Proximal 
-Development waar je altijd in wil zitten. Daarna heb je nog het gebied die helemaal buiten je comfort valt wat ook veel te 
-moeilijk is op dat moment om te leren, daar wil je nooit zitten.
-
-Bij de Figma Workshop hebben we kennis gemaakt met verschillende shortcuts en Auto-Layout.
-Ctrl + [ of ] om objecten naar een andere laag te plaatsen.
-Ctrl + G om objecten te groeperen, of Ctrl + Shift + G om ze niet meer te groeperen.
-Alt om gelijkmatig objecten uit te rekken.
-
-Met Auto-Layout kun je components maken die je makkelijk kunt hergebruiken.
-
-Desktop Artboard: 1440 x 1028
-Mobile Artboard: 375 x 812
-
-Creative Coding met CSS
-
-Snap Scrolling in CSS moet een Progressive Enhancement zijn, geen Breaking Enhacement. Dit kun je doen door gebruik te maken van @supports. Zo herkent de browser of deze feature wordt ondersteund of niet.
-
-De animation-timeline heet Happy Scroller. Deze is gebruikt in de demo van Justus. 
-
-Creative Coding met Javascript
+Sveltekit probeert het makkelijker te maken om gebruik te maken van verschillende animation-timelines. Zo heb je een timeline genaamd: "Happy Scroller"
+waarmee je dus vloeiende animaties kunt maken met Sveltekit. Deze is dan ook gebruikt in de live-demo van Justus. Om zo een timeline aan de praat te 
+krijgen is er vaak Javascript nodig, zo heb je bijvoorbeeld zulke code nodig om bepaalde properties mee te geven met de animatie:
 
 ``<svelte:window on:mousemove={followPointer} />``
 

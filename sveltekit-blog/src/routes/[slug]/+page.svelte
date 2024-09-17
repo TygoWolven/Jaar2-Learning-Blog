@@ -11,6 +11,9 @@
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
+
+<a href="/" class="backButton">Terug</a>
+
 <article>
   <!-- Title -->
 	<hgroup>
@@ -55,5 +58,11 @@
 	.tags > * {
 		padding: var(--size-2) var(--size-3);
 		border-radius: var(--radius-round);
+	}
+
+	.backButton {
+		position: sticky;
+		top: 32px;
+		color: var(--text-1);
 	}
 </style>
