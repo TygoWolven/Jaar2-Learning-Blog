@@ -12,6 +12,8 @@ published: true
     import ProximalChart from "$lib/assets/image.png"
 </script>
 
+## Inhoudsopgave
+
 ## Getting started with Directus and Sveltekit
 In de eerste week van sprint 13 ben ik gaan experimenteren met het opstarten van een svelte project. Hierbij heb ik 
 in de Terminal van Visual Studio Code een aantal commands ingevoerd waarmee ik het skelet van het project kon opzetten. 
@@ -98,10 +100,19 @@ Bij het toevoegen van een winkelmandje:
 Kortom, een epic is een groots idee, deze verklein je in stories, en deze maak je inschatbaar in userstories.
 
 ## MoSCoW Methode
-Must haves: Zijn taken die af moeten voor de deadline.
+**Must haves:** Zijn taken die af moeten voor de deadline.
 
-Should haves: Zijn taken die eigenlijk wel af moeten, maar niet noodzakelijk zijn.
+**Should haves:** Zijn taken die eigenlijk wel af moeten, maar niet noodzakelijk zijn.
 
-Could haves: Zijn taken die af kunnen, mits we tijd over hebben.
+**Could haves:** Zijn taken die af kunnen, mits we tijd over hebben.
 
-Want to have but will not have this sprint: Zijn taken die leuk zijn voor een andere keer.
+**Want to have but will not have this sprint:** Zijn taken die leuk zijn voor een andere keer.
+
+## Wrapup: over hoe je projecten oplevert
+
+**Refactored Code:** gestructureerde code (conventies), semantiek, geen commented code, geen console.log(), goede tabs.
+
+**Readme.md:** CMS uitleg, installatiehandleiding, kenmerken, huisstijl, instructies, live link, screenshot(s?), bronnen, hints voor volgende dev-teams, badges met gebruikte technologie.
+
+**Live zetten:** Github pages, Vercel, Netlify, Onrender.
+
