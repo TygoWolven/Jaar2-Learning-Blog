@@ -1,12 +1,12 @@
 <script lang="ts">
 	import Footer from '$lib/+Footer.svelte'
 	import Header from '$lib/+Header.svelte'
-
 	import 'open-props/style'
 	import 'open-props/normalize'
 	import 'open-props/buttons'
-
 	import '../app.css'
+
+	export const prerender = true
 </script>
 
 <div class="layout">
