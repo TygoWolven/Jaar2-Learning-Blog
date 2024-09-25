@@ -5,8 +5,6 @@
 	import 'open-props/normalize'
 	import 'open-props/buttons'
 	import '../app.css'
-
-	export const prerender = true
 </script>
 
 <div class="layout">
