@@ -40,7 +40,7 @@ dat er bepaalde leergebieden zijn met allemaal een eigen moeilijkheidsgraad. Ove
 Deze zones zal ik toelichten aan de hand van deze afbeelding:
 <br>
 <img alt="The Zone of Proximal Development" src={ProximalChart} />
-<figcaption><i>The Zone of Proximal Development</i></figcaption>
+The Zone of Proximal Development
 
 Zo kun je ervoor kiezen om dingen te leren die binnen handbereik liggen, maar die zijn niet erg uitdagend. Je kunt er ook voor kiezen
 om heel veel uitdaging op te zoeken, maar dat valt meestal buiten je comfort en gaat je dan ook niet lukken zonder hulp. Dan heb je nog
