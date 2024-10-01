@@ -1,37 +1,32 @@
 <script lang="ts">
-	import { formatDate } from '$lib/utils'
+	import * as config from '$lib/config'
 
-	export let data
+  export let data
 </script>
 
-<!-- SEO -->
 <svelte:head>
-	<title>{data.meta.title}</title>
-	<meta property="og:type" content="article" />
+  <title>{config.title} - {data.meta.title}</title>
+  <meta property="og:type" content="article" />
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
-
-<a href="/" class="backButton">Terug</a>
+<a href="/">Terug</a>
 
 <article>
-  <!-- Title -->
-	<hgroup>
-		<h1>{data.meta.title}</h1>
-		<p>Published at {formatDate(data.meta.date)}</p>
-	</hgroup>
+  <hgroup>
+    <h1>{data.meta.title}</h1>
+    <p>{data.meta.description}</p>
+  </hgroup>
 
-  <!-- Tags -->
-	<div class="tags">
-		{#each data.meta.categories as category}
-			<span class="surface-4">&num;{category}</span>
-		{/each}
-	</div>
+  <div class="tags">
+    {#each data.meta.categories as category}
+      <span class="surface-4">&num;{category}</span>
+    {/each}
+  </div>
 
-  <!-- Post -->
-	<div class="prose">
-		<svelte:component this={data.content} />
-	</div>
+  <div class="prose">
+    <svelte:component this={data.content} />
+  </div>
 </article>
 
 <style>
@@ -58,11 +53,5 @@
 	.tags > * {
 		padding: var(--size-2) var(--size-3);
 		border-radius: var(--radius-round);
-	}
-
-	.backButton {
-		position: sticky;
-		top: 32px;
-		color: var(--text-1);
 	}
 </style>

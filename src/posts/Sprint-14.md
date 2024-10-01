@@ -28,11 +28,11 @@ Zorg dat je routes vanaf het begin altijd goed opgebouwd zijn, als je hier in he
 ### Error Handling
 routes/+error.svelte zorgt voor een custom error-pagina. Deze werkt als er ook nog maar iets werkend is van svelte.
 
-script
-  import { page } from '$app//stores'
-script
+`script`
+`import { page } from '$app//stores'`
+`script`
 
-{$page.status} - {page.error.message}
+`{$page.status} - {page.error.message}`
 
 
 ### Loading Data
@@ -41,19 +41,17 @@ Voor het inladen van gegevens zijn de `+page.server.js` en de `+page.js` van toe
 Hierbij heeft de server.js altijd async
 
 ### Binding
-````JS
-<script>
-  let name = 'world'
-  $: shout = name + 'rocks!'
-</script>
-````
 
-````HTML
-<input bind:value={name}>
+`script`
+  `let name = 'world'`
+  `$: shout = name + 'rocks!'`
+`script`
 
-<h1>Hello {name}!</h1>
-<p>{shout}</p>
-```` 
+input bind:value={name}
+
+`h1Hello {name}!/h1`
+`p{shout}/p`
+
 
 ### Library & Components
 De meeste framework projecten hebben een bibliotheekfunctie. De library.
@@ -65,7 +63,7 @@ Vervolgens is dit bestand her te gebruiken door gebruik te maken van de volgende
 `import {Header} from '$lib'`
 
 "index.js"...
-export { default as Header } from './Header.svelte
+`export { default as Header } from './Header.svelte`
 
 Ook heb ik de voorbeeldrepo van Justus gedownload na het college.
 
