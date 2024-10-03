@@ -67,3 +67,9 @@ Vervolgens is dit bestand her te gebruiken door gebruik te maken van de volgende
 
 Ook heb ik de voorbeeldrepo van Justus gedownload na het college.
 
+
+## Design Critique
+Dieter Rams
+10 Principles of good design
+
+
