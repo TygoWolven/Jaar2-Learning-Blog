@@ -72,4 +72,72 @@ Ook heb ik de voorbeeldrepo van Justus gedownload na het college.
 Dieter Rams
 10 Principles of good design
 
+## FDND Agile Woordenlijst
 
+Agile Development
+
+Backlog
+
+Business Owner:
+Eigenaar van een bedrijf.
+
+Continuous Integration:
+Een automatische integratie van de live-website zodra er updates zijn.
+
+Daily Scrum
+
+Definition of Done
+
+Epic
+
+Feature
+
+Iteration
+
+Minimal viable product:
+Het minimale werk dat je kunt opleveren voor een project.
+
+MoSCoW
+
+Optimum viable product:
+Het maximale werk dat je kunt opleveren voor een project.
+
+Planning poker
+
+Product owner:
+De persoon die meestal een opdracht aanbied, en hierbij stories aanmaakt.
+
+Refactoring
+
+Retrospective
+
+Release
+
+Scrum
+
+Scrum Master
+
+Scrum Team
+
+Sprint
+
+Sprint Goal
+
+Sprint planning
+
+Sprint review
+
+Stand-up:
+Snelle meeting waarin je bespreekt wat je gaat doen, waar je tegen aan loopt en of je hulp nodig hebt.
+
+Stakeholders:
+Mensen die op een of andere manier te maken hebben met het project.
+
+Task
+
+Task board
+
+Task points
+
+Velocity:
+Hoeveelheid planning-punten die je per sprint kunt verbranden.
