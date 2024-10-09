@@ -26,8 +26,22 @@ const config = {
 	extensions: ['.svelte', '.md'],
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 	kit: {
-		adapter: adapter()
-	}
-}
+		adapter: adapter(),
+		prerender: {
+		  handleHttpError: ({ statusCode, url }) => {
+			if (statusCode === 404 && url === '/rss.xml') {
+			  // You can return a custom response or ignore the error
+			  return {
+				status: 404,
+				body: 'RSS feed not found',
+			  };
+			}
+			// Return null to propagate the error
+			return null;
+		  },
+		},
+	  },
+	};
+	
+	export default config;
 
-export default config
