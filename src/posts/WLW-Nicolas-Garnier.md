@@ -1,5 +1,5 @@
 ---
-title: Toegankelijkheid, creativiteit en klokken - Vasilis van Gemert
+title: Freelance Creative Developer - Nicolas Garnier
 description: Hier heb ik gedocumenteerd wat ik heb opgestoken uit de We Love Web van Nicolas Garnier.
 date: '2024-10-04'
 categories:
