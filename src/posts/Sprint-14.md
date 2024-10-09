@@ -140,4 +140,31 @@ Task board
 Task points
 
 Velocity:
-Hoeveelheid planning-punten die je per sprint kunt verbranden.
+Hoeveelheid planning-punten die je per sprint kunt verbranden.`
+
+## Sprint Review
+Een sprint-review is kijken naar wat je gemaakt hebt en hoe ver je bent met de opdrachtgever
+
+Hierbij ga je:
+-Specifieke vragen bedenken om feedback te krijgen
+-Specifieke vragen stellen om feedback te krijgen
+-Een demo geven aan de opdrachtgever om de applicatie te laten zien
+  - Langs userstories gaan
+  - Website laten zien naast het design
+  - Werk van deze sprint laten zien
+  - Laten zien waar je nog niet aan toe bent gekomen (adhv het design)
+-Een voorstel geven om het product mogelijk te kunnen verbeteren
+-Uitkomst van testen bespreken om zo verbeteringen te laten zien
+-Planning voor de volgende review geven
+-Werk opleveren / vragen hoe ze het opgeleverd willen hebben
+
+Rollen tijdens Sprint Review:
+Feedback verwerker (Github Issues)
+Presentator
+Timekeeper
+Cheerleader
+
+## Voorbereiding Sprint Review
+
+Ik heb een vraag over wat de opdrachtgever vind van mijn design voor het lijstje sprints.
+Zelf ben ik er niet heel enthousiast over dus misschien dat de opdrachtgever hier leuke ideeën voor heeft.
