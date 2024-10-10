@@ -30,6 +30,7 @@
 
 	.links {
 		margin-block: var(--size-7);
+		color: red;
 	}
 
 	a {
