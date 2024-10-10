@@ -24,19 +24,19 @@ Hoe kunnen animaties en interactiviteit helpen met het vertellen van een verhaal
 Animaties is een manier van de gebruiker betrekken, en hierbij een sfeer op de pagina te zetten.
 
 ## Een aantal websites
-https://vitaarchitecture.com/
+[https://vitaarchitecture.com/](https://vitaarchitecture.com/) <br>
 Vita Architecture heeft hij gemaakt in 2021. Hierbij hebben ze gebruik gemaakt van soepele animaties zodat
 de pagina niet recht in het gezicht van de gebruiker is.
 
-https://liefamsterdam.nl/
+[https://liefamsterdam.nl/](https://liefamsterdam.nl/) <br>
 Deze website gaat ook om het plezier maken in een website, terwijl je het toch subtiel wilt houden. Zo kun je
 een hart zachtjes laten kloppen, want dat is de natuurlijke manier van wat een hart doet. Maar deze kleine 
 dingen zorgen toch voor een mooie samenhang binnen de website.
 
-https://lifeworld.wetransfer.com/
+Verder liet Nicolas nog een aantal vette websites zien waar je kunt kijken voor inspiratie:
 
-https://loerarchitecten.com/
-
+https://lifeworld.wetransfer.com/ <br>
+https://loerarchitecten.com/ <br>
 https://alcestmustic.com/
 
 ## Conclusie

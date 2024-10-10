@@ -50,9 +50,7 @@ import { page } from '$app//stores'
 ````
 
 ### Loading Data
-Voor het inladen van gegevens zijn de `+page.server.js` en de `+page.js` van toepassing. 
-
-Hierbij heeft de server.js altijd async
+Voor het inladen van gegevens zijn de `+page.server.js` en de `+page.js` van toepassing. Hierbij moet je ervoor zorgen dat de de `server.js` altijd een async heeft.
 
 ```js
 export async function load() {
@@ -63,39 +61,41 @@ export async function load() {
 ```
 
 ### Binding
+Binnen sveltekit is het mogelijk om elementen met elkaar te verbinden. Zo kun je bijvoorbeeld een `input` verbinden met een `p`. Zo komen op beide plekken dezelfde content te staan. Dit doe je door en het `script` veld de volgende code neer te zetten:
+````
+let name = 'world'
+$: shout = name + 'rocks!'
+````
+Daarnaast zet je in de `HTML` het volgende:
+````
+<input bind:value={name}>
 
-`script`
-  `let name = 'world'`
-  `$: shout = name + 'rocks!'`
-`script`
-
-input bind:value={name}
-
-`h1Hello {name}!/h1`
-`p{shout}/p`
-
+<h1>Hello {name}!</h1>
+<p>{shout}</p>
+````
 
 ### Library & Components
-De meeste framework projecten hebben een bibliotheekfunctie. De library.
+De meeste framework projecten hebben een bibliotheekfunctie, de library. In de library kun je alles hergebruiken (componenten). Denk hierbij bijvoorbeeld aan de `Header.svelte`. De naam van het bestand moet altijd met een hoofdletter beginnen, maar dit zorgt ervoor dat je de `header` automatisch op elke pagina kan laten zien, zonder dat je deze elke keer opnieuw hoeft te schrijven.
 
-In de library kun je alles hergebruiken. Denk aan de `Header.svelte`. De naam van het bestand moet altijd met een hoofdletter beginnen.
+Om zo een component te gebruiken moet je de volgende code toepassen:
+````
+// In de +layout.svelte of de +page.svelte
+import {Header} from '$lib'
+{Header}
 
-Vervolgens is dit bestand her te gebruiken door gebruik te maken van de volgende code:
-
-`import {Header} from '$lib'`
-
-"index.js"...
-`export { default as Header } from './Header.svelte`
-
-Ook heb ik de voorbeeldrepo van Justus gedownload na het college.
-
+// In de index.js 
+export { default as Header } from './Header.svelte
+````
 
 ## Design Critique
-Dieter Rams
-10 Principles of good design
+Een Design Critique is een sessie waarbij teamleden gaan kijken naar elkaars designs, en hier volop kritiek op gaan geven. Dit kan zowel goede, als slechte kritiek zijn. Het doel hiervan is om nieuwe inzichten te krijgen over het design.
+
+Om te kijken wat goede designprincipes zijn kun je kijken naar het artikel van Dieter Rams waarin hij 10 principes geeft voor goed design.
+
+Bron:
+https://tenprinciples.design/
 
 ## FDND Agile Woordenlijst
-
 Agile Development
 
 Backlog
@@ -165,28 +165,34 @@ Velocity:
 Hoeveelheid planning-punten die je per sprint kunt verbranden.`
 
 ## Sprint Review: over hoe je deze kan voorbereiden
-Een sprint-review is kijken naar wat je gemaakt hebt en hoe ver je bent met de opdrachtgever
+Een sprint-review is kijken naar wat je gemaakt hebt en hoe ver je bent met de opdrachtgever.
 
-Hierbij ga je:
--Specifieke vragen bedenken om feedback te krijgen
--Specifieke vragen stellen om feedback te krijgen
+### Wat ga je doen?
+-Specifieke vragen bedenken om feedback te krijgen <br>
+-Specifieke vragen stellen om feedback te krijgen 
+
 -Een demo geven aan de opdrachtgever om de applicatie te laten zien
   - Langs userstories gaan
   - Website laten zien naast het design
   - Werk van deze sprint laten zien
-  - Laten zien waar je nog niet aan toe bent gekomen (adhv het design)
--Een voorstel geven om het product mogelijk te kunnen verbeteren
--Uitkomst van testen bespreken om zo verbeteringen te laten zien
--Planning voor de volgende review geven
+  - Laten zien waar je nog niet aan toe bent gekomen (adhv het design) 
+
+-Een voorstel geven om het product te verbeteren <br>
+-Uitkomst van testen bespreken om zo verbeteringen te laten zien <br>
+-Planning voor de volgende review geven <br>
 -Werk opleveren / vragen hoe ze het opgeleverd willen hebben
 
-Rollen tijdens Sprint Review:
+### Welke rollen zijn er?
 Feedback verwerker (Github Issues)
+
 Presentator
+
 Timekeeper
+
 Cheerleader
 
-## Voorbereiding Sprint Review
-
-Ik heb een vraag over wat de opdrachtgever vind van mijn design voor het lijstje sprints.
-Zelf ben ik er niet heel enthousiast over dus misschien dat de opdrachtgever hier leuke ideeën voor heeft.
+## Vragen ter voorbereiding op de Sprint Review
+Voor de sprint review heb ik een aantal vragen voorbereid die ik wil gaan stellen:
+- Wat vind je van het design van het lijstje met sprints?
+  - *Dit wil ik vragen omdat ik zelf niet erg enthousiast ben over het design, dus mogelijk krijg ik wat inzichten van de opdrachtgever.*
+- Zijn er bepaalde functies die je graag zou willen zien binnen het project?
