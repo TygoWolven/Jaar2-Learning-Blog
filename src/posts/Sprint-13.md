@@ -12,8 +12,6 @@ published: true
     import ProximalChart from "$lib/assets/image.png"
 </script>
 
-## Inhoudsopgave
-
 ## Getting started with Directus and Sveltekit
 In de eerste week van sprint 13 ben ik gaan experimenteren met het opstarten van een svelte project. Hierbij heb ik 
 in de Terminal van Visual Studio Code een aantal commands ingevoerd waarmee ik het skelet van het project kon opzetten. 
@@ -108,11 +106,12 @@ Kortom, een epic is een groots idee, deze verklein je in stories, en deze maak j
 
 **Want to have but will not have this sprint:** Zijn taken die leuk zijn voor een andere keer.
 
-## Wrapup: over hoe je projecten oplevert
+## Wrap-up: over hoe je projecten oplevert
 
-**Refactored Code:** gestructureerde code (conventies), semantiek, geen commented code, geen console.log(), goede tabs.
+**Refactored Code:** Gestructureerde code (conventies), semantiek, geen commented code, geen console.log(), goede tabs, een versie release, goede pull request strategie, components, linter installeren.  
 
-**Readme.md:** CMS uitleg, installatiehandleiding, kenmerken, huisstijl, instructies, live link, screenshot(s?), bronnen, hints voor volgende dev-teams, badges met gebruikte technologie.
+**Readme.md:** Kenmerken, live link, screenshot(s?), instructies (uitleg over het gebruik), installatiehandleiding, CMS uitleg, huisstijl (of waar die te vinden is), bijdragen? (hints voor volgende dev-teams), gebruikte bronnen, badges met gebruikte technologie, link naar projectboard, introductie, licentie, changelog (o.b.v. versies).
+
+**Testen:** Performance, keyboard, screenreader, lighthouse, kleurcontrast, WCAG, html validator, user test, browsertest, devicetest, css validator.
 
 **Live zetten:** Github pages, Vercel, Netlify, Onrender.
-

@@ -11,34 +11,56 @@ published: true
 ## Sveltekit Principles
 
 ### Structure
-AFBEELDING VAN SVELTE-STRUCTUUR TOEVOEGEN
+````ts
+// Hier zie je een standaard sveltekit-structuur
+my-project/
+- src/
+  - lib/
+    - server/
+  - routes/
+    - +page.svelte
+  - app.html
+  - error.html
+- static/
+  - assets/
+- .env
+- .env.example
+- package.json
+- svelte.config.js
+- tsconfig.json
+- vite.config.js
+````
 
-Binnen sveltekit zijn de `src`, `routes` en de `app.html` noodzakelijk. Zonder deze files kan je project niet draaien.
+Binnen sveltekit zijn de `src`, `routes` en de `app.html` noodzakelijk. Zonder deze files kan je project niet draaien. In de `package.json` staat een lijst met depencies die de developer zal moeten hebben om het project te runnen.
 
-In de `package.json` staat een lijst met depencies die nodig zijn om het project te runnen.
-
-In je `.env` staat geheime informatie die niet op straat mogen.
-
-In je `.env.example` staat een layout waarin je kan zien welke geheime informatie je nodig hebt om het project te runnen.
-
+Dan heb je nog de `.env` bestanden. In het normale bestand staan dingen zoals je API-key die niet gepubliceerd mogen worden. Echter zijn deze wel nodig om het project te kunnen runnen. Daarnaast heb je nog het `.env.example` bestand. Hierin laat je een soort layout zien zodat de andere developer wel weet welke geheime informatie er in moet komen te staan.
 
 ### Routing
-Zorg dat je routes vanaf het begin altijd goed opgebouwd zijn, als je hier in het begin een fout in maakt ben je de rest van je project verdwaald.
+Bij het aanmaken van routes binnen je sveltekit-project kun je er altijd maar beter voor zorgen dat alles vanaf het begin al goed is opgebouwd. Als je hier in het begin al fouten in maakt is de kans groot dat je verder in het project verdwaald gaat raken.
 
 ### Error Handling
-routes/+error.svelte zorgt voor een custom error-pagina. Deze werkt als er ook nog maar iets werkend is van svelte.
+Sveltekit heeft standaard zijn eigen error page, maar deze kun je ook heel gemakkelijk zelf overnemen om hiervan een leuke error-page te maken. Hierbij zorgt de `routes/+error.svelte` voor een custom error-page. Deze zal getoond worden bij elke error die mogelijk kan opspelen binnen de website.
 
-`script`
-`import { page } from '$app//stores'`
-`script`
+Om de error-status en bericht te laten zien kun je de volgende code neerzetten binnen het `+error.svelte` bestand. <br>
 
-`{$page.status} - {page.error.message}`
+````
+import { page } from '$app//stores'
 
+{$page.status} - {page.error.message}
+````
 
 ### Loading Data
 Voor het inladen van gegevens zijn de `+page.server.js` en de `+page.js` van toepassing. 
 
 Hierbij heeft de server.js altijd async
+
+```js
+export async function load() {
+  return {
+    foo: 'bar'
+  }
+}
+```
 
 ### Binding
 
@@ -142,7 +164,7 @@ Task points
 Velocity:
 Hoeveelheid planning-punten die je per sprint kunt verbranden.`
 
-## Sprint Review
+## Sprint Review: over hoe je deze kan voorbereiden
 Een sprint-review is kijken naar wat je gemaakt hebt en hoe ver je bent met de opdrachtgever
 
 Hierbij ga je:
