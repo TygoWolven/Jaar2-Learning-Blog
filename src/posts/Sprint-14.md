@@ -164,6 +164,11 @@ Task points
 Velocity:
 Hoeveelheid planning-punten die je per sprint kunt verbranden.`
 
+## Denken in oplossingen: Vercel en Netlify
+Tijdens het werken aan deze Learning Blog liep ik tegen een probleem aan bij het live-zetten van de pagina. De bedoeling was om dit via Vercel te doen, echter faalde hier telkens de `build`. Dit vond ik gek aangezien de build lokaal wel gewoon succesvol was, dus ging ik kijken naar andere mogelijkheden.
+
+Zo kwam ik aan bij Netlify, een andere tool om je website te kunnen publiceren. Hier probeerde ik dus ook mijn pagina te builden, en hier lukte dat wel zonder problemen. Zo zie je maar dat de aangeboden optie niet altijd de beste is. Door zelf verder te zoeken naar een andere oplossing kun je tot hetzelfde resultaat komen.
+
 ## Sprint Review: over hoe je deze kan voorbereiden
 Een sprint-review is kijken naar wat je gemaakt hebt en hoe ver je bent met de opdrachtgever.
 
@@ -196,3 +201,12 @@ Voor de sprint review heb ik een aantal vragen voorbereid die ik wil gaan stelle
 - Wat vind je van het design van het lijstje met sprints?
   - *Dit wil ik vragen omdat ik zelf niet erg enthousiast ben over het design, dus mogelijk krijg ik wat inzichten van de opdrachtgever.*
 - Zijn er bepaalde functies die je graag zou willen zien binnen het project?
+
+## Feedback van de Sprint Review
+Het idee om alle sprints te weergeven naast de huidige knoppen is een vet idee! Maar niet voor op de homepagina, dit kan eventueel in een detailpagina.
+ 
+Het is heel belangrijk om de primaire functie van de website te behouden, en dat is zo snel mogelijk je rooster kunnen zien. Probeer dit niet te verstoren door onnodige afbeeldingen op de pagina te zetten zoals 'fdnd.nl'.
+ 
+Momenteel is de website niet toegankelijk op mobiel, zorg dat de volgende versie mobile-first is gemaakt. Veel leerlingen gebruiken deze website alleen op hun mobiel.
+ 
+In de repository fdnd components zijn svg's te vinden van alle HvA logo's.
