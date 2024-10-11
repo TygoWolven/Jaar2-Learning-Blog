@@ -201,3 +201,12 @@ Voor de sprint review heb ik een aantal vragen voorbereid die ik wil gaan stelle
 - Wat vind je van het design van het lijstje met sprints?
   - *Dit wil ik vragen omdat ik zelf niet erg enthousiast ben over het design, dus mogelijk krijg ik wat inzichten van de opdrachtgever.*
 - Zijn er bepaalde functies die je graag zou willen zien binnen het project?
+
+## Feedback van de Sprint Review
+Het idee om alle sprints te weergeven naast de huidige knoppen is een vet idee! Maar niet voor op de homepagina, dit kan eventueel in een detailpagina.
+ 
+Het is heel belangrijk om de primaire functie van de website te behouden, en dat is zo snel mogelijk je rooster kunnen zien. Probeer dit niet te verstoren door onnodige afbeeldingen op de pagina te zetten zoals 'fdnd.nl'.
+ 
+Momenteel is de website niet toegankelijk op mobiel, zorg dat de volgende versie mobile-first is gemaakt. Veel leerlingen gebruiken deze website alleen op hun mobiel.
+ 
+In de repository fdnd components zijn svg's te vinden van alle HvA logo's.
