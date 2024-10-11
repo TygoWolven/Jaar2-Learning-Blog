@@ -76,6 +76,10 @@ html {
 	--surface-4: var(--surface-4-dark);
 	--background: var(--background-dark);
 	--border: var(--border-dark);
+
+	a:hover {
+		text-decoration: underline var(--brand-light);
+	}
 }
 
 [color-scheme='light'] {
@@ -90,6 +94,10 @@ html {
 	--surface-4: var(--surface-4-light);
 	--background: var(--background-light);
 	--border: var(--border-light);
+
+	a:hover {
+		text-decoration: underline var(--brand-dark);
+	}
 }
 
 html,
@@ -121,10 +129,6 @@ li {
 a {
 	color: var(--brand);
 	font-weight: 700;
-}
-
-a:hover {
-	text-decoration: underline white;
 }
 
 .surface-1 {
