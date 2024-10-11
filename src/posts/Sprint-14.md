@@ -164,6 +164,11 @@ Task points
 Velocity:
 Hoeveelheid planning-punten die je per sprint kunt verbranden.`
 
+## Denken in oplossingen: Vercel en Netlify
+Tijdens het werken aan deze Learning Blog liep ik tegen een probleem aan bij het live-zetten van de pagina. De bedoeling was om dit via Vercel te doen, echter faalde hier telkens de `build`. Dit vond ik gek aangezien de build lokaal wel gewoon succesvol was, dus ging ik kijken naar andere mogelijkheden.
+
+Zo kwam ik aan bij Netlify, een andere tool om je website te kunnen publiceren. Hier probeerde ik dus ook mijn pagina te builden, en hier lukte dat wel zonder problemen. Zo zie je maar dat de aangeboden optie niet altijd de beste is. Door zelf verder te zoeken naar een andere oplossing kun je tot hetzelfde resultaat komen.
+
 ## Sprint Review: over hoe je deze kan voorbereiden
 Een sprint-review is kijken naar wat je gemaakt hebt en hoe ver je bent met de opdrachtgever.
 
