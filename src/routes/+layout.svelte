@@ -34,6 +34,7 @@
 		filter: blur(100px);
 		width: max-content;
 		position: fixed;
+		z-index: -10;
 	}
 
 	.layout {
