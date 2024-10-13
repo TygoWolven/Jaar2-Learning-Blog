@@ -51,7 +51,6 @@
 
 	.post {
 		max-width: 25em;
-		max-inline-size: var(--size-content-3);
 	}
 
 	.post:not(:last-child) {
