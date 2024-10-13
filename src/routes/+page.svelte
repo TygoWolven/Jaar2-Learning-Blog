@@ -9,32 +9,54 @@
 	<title>{config.title}</title>
 </svelte:head>
 
-<!-- Posts -->
-<section>
+<!-- Information -->
+<section id="Information">
+	<h2>Sprints</h2>
 	<ul class="posts">
 		{#each data.posts as post}
-			<li class="post">
-				<a href={post.slug} class="title">{post.title}</a>
-				<p class="date">{formatDate(post.date)}</p>
-				<p class="description">{post.description}</p>
-			</li>
+			{#if post.value === 1}
+				<li class="post">
+					<a href={post.slug} class="title">{post.title}</a>
+					<p class="date">{formatDate(post.date)}</p>
+					<p class="description">{post.description}</p>
+				</li>
+			{/if}
+		{/each}
+	</ul>
+
+	<h2>We Love Webs</h2>
+	<ul class="posts">
+		{#each data.posts as post}
+			{#if post.value === 2}
+				<li class="post">
+					<a href={post.slug} class="title">{post.title}</a>
+					<p class="date">{formatDate(post.date)}</p>
+					<p class="description">{post.description}</p>
+				</li>
+			{/if}
 		{/each}
 	</ul>
 </section>
 
 <style>
+	section {
+		height: fit-content;
+	}
+
 	.posts {
-		display: grid;
+		display: flex;
+		flex-wrap: wrap;
 		gap: 2rem;
 	}
 
 	.post {
+		width: 25em;
 		max-inline-size: var(--size-content-3);
 	}
 
 	.post:not(:last-child) {
-		border-bottom: 1px solid var(--border);
-		padding-bottom: var(--size-7);
+		border-right: 1px solid var(--border);
+		padding-right: var(--size-7);
 	}
 
 	.title {
@@ -48,6 +70,14 @@
 
 	.description {
 		margin-top: var(--size-3);
+	}
+
+	h2 {
+		font-size: 3.5em;
+	}
+
+	h2:not(:first-child) {
+		margin-top: 1.5em;
 	}
 </style>
 

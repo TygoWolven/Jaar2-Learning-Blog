@@ -1,11 +1,12 @@
 ---
-title: Sprint 13 - Your Tribe for Life
-description: Hier heb ik gedocumenteerd wat ik heb geleerd in Sprint 13.
+title: Your Tribe for Life
+description: Hier documenteer ik wat ik heb geleerd in sprint 13.
 date: '2024-9-02'
 categories:
   - Semester 3
   - Sprint 13
 published: true
+value: 1
 ---
 
 <script>

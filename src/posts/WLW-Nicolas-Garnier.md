@@ -1,12 +1,13 @@
 ---
-title: Freelance Creative Developer - Nicolas Garnier
-description: Hier heb ik gedocumenteerd wat ik heb opgestoken uit de We Love Web van Nicolas Garnier.
+title: Nicolas Garnier
+description: Hier documenteer ik wat ik heb geleerd in de We Love Web van Nicolas Garnier.
 date: '2024-10-04'
 categories:
   - Semester 3
   - Sprint 14
   - We Love Web
 published: true
+value: 2
 ---
 
 ## Over Nicolas

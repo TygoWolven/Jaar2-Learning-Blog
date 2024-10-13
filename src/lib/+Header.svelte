@@ -1,24 +1,19 @@
 <script lang="ts">
 	import * as config from '$lib/config'
 	import Toggle from '$lib/+Toggle.svelte'
-	import { House } from 'lucide-svelte'
-
+	import Logo from "$lib/assets/TSW-Logo.png"
 </script>
 
 <nav>
-  <!-- Title -->
-	<a href="/" class="title">
-		<b>{config.title}</b>
-		<House />
+  <!-- Home Button -->
+	<a href="/" class="logo">
+		<img alt="Brand Logo" src={Logo} />
 	</a>
 
   <!-- Navigation -->
 	<ul class="links">
 		<li>
 			<a href="/about">About</a>
-		</li>
-		<li>
-			<a href="/contact">Contact</a>
 		</li>
 	</ul>
 
@@ -39,6 +34,11 @@
 	a {
 		color: inherit;
 		text-decoration: none;
+	}
+
+	.logo > img {
+		height: 30px;
+		border-radius: unset;
 	}
 
 	.links {

@@ -1,12 +1,13 @@
 ---
-title: Toegankelijkheid, creativiteit en klokken - Vasilis van Gemert
-description: Hier heb ik gedocumenteerd wat ik heb opgestoken uit de We Love Web van Vasilis van Gemert.
+title: Vasilis van Gemert
+description: Hier documenteer ik wat ik heb geleerd in de We Love Web van Vasilis van Gemert.
 date: '2024-9-13'
 categories:
   - Semester 3
   - Sprint 13
   - We Love Web
 published: true
+value: 2
 ---
 
 ## Over Vasilis
