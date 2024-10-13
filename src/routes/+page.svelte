@@ -10,7 +10,7 @@
 </svelte:head>
 
 <!-- Information -->
-<section id="Information">
+<section id="Documentation">
 	<h2>Sprints</h2>
 	<ul class="posts">
 		{#each data.posts as post}
