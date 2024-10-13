@@ -50,7 +50,7 @@
 	}
 
 	.post {
-		width: 25em;
+		max-width: 25em;
 		max-inline-size: var(--size-content-3);
 	}
 

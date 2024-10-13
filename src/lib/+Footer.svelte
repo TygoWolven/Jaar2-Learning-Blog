@@ -30,7 +30,6 @@
 	.socials {
 		display: flex;
 		align-items: center;
-		padding: 0 4em;
 		gap: 2rem;
 	}
 
@@ -41,5 +40,23 @@
 
 	p, a {
 		color: var(--text-2);
+	}
+
+	@media (max-width: 768px) {
+		footer {
+			width: 100vw;
+			flex-direction: column;
+			text-align: left;
+		}
+
+		.socials {
+			flex-direction: column;
+			align-items: start;
+			gap: 1em;
+		}
+
+		p {
+			margin-bottom: 1em;
+		}
 	}
 </style>
