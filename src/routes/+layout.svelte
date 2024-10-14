@@ -62,7 +62,7 @@
 		}
 
 		svg path {	
-			stroke-width: 10;
+			stroke-width: 4;
 		}
 	}
 </style>
