@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils'
 	import * as config from '$lib/config'
+	import { CircleCheck, CircleX } from 'lucide-svelte'
 
 	export let data
 </script>
@@ -26,7 +27,14 @@
 			{#if post.value === 1}
 				<li class="post">
 					<a href={post.slug} class="title">{post.title}</a>
-					<p class="date">{formatDate(post.date)}</p>
+					<div>
+						<p class="date">{formatDate(post.date)}</p>
+						{#if post.status === true}
+							<p class="status true">Up to date <span><CircleCheck /></span></p>
+						{:else}
+							<p class="status false">Work in progress <span><CircleX /></span></p>
+						{/if}
+					</div>
 					<p class="description">{post.description}</p>
 				</li>
 			{/if}
@@ -39,7 +47,34 @@
 			{#if post.value === 2}
 				<li class="post">
 					<a href={post.slug} class="title">{post.title}</a>
-					<p class="date">{formatDate(post.date)}</p>
+					<div>
+						<p class="date">{formatDate(post.date)}</p>
+						{#if post.status === true}
+							<p class="status true">Up to date <span><CircleCheck /></span></p>
+						{:else}
+							<p class="status false">Work in progress <span><CircleX /></span></p>
+						{/if}
+					</div>
+					<p class="description">{post.description}</p>
+				</li>
+			{/if}
+		{/each}
+	</ul>
+
+	<h2>Experimenten</h2>
+	<ul class="posts">
+		{#each data.posts as post}
+			{#if post.value === 3}
+				<li class="post">
+					<a href={post.slug} class="title">{post.title}</a>
+					<div>
+						<p class="date">{formatDate(post.date)}</p>
+						{#if post.status === true}
+							<p class="status true">Up to date <span><CircleCheck /></span></p>
+						{:else}
+							<p class="status false">Work in progress <span><CircleX /></span></p>
+						{/if}
+					</div>
 					<p class="description">{post.description}</p>
 				</li>
 			{/if}
@@ -91,6 +126,24 @@
 		max-width: 25em;
 	}
 
+	.post div {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.post div p {
+		display: flex;
+		gap: 0.5em;
+	}
+
+	.status.true span {
+		color: var(--brand);
+	}
+
+	.status.false span {
+		color: rgb(175, 0, 0);
+	}
+
 	.post:not(:last-child) {
 		border-right: 1px solid var(--border);
 		padding-right: var(--size-7);
@@ -101,7 +154,8 @@
 		text-transform: capitalize;
 	}
 
-	.date {
+	.date,
+	.status {
 		color: var(--text-2);
 	}
 
