@@ -33,7 +33,4 @@ Verder liet Nicolas nog een aantal vette websites zien waar je kunt kijken voor 
 
 https://lifeworld.wetransfer.com/ <br>
 https://loerarchitecten.com/ <br>
-https://alcestmustic.com/
-
-## Conclusie
-Zie animaties als een uitbereiding van het orginele doel, maar wees op de hoogte dat het veel tijd gaat innemen. 
+https://alcestmustic.com/ 
