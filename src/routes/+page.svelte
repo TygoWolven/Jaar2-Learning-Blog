@@ -9,6 +9,11 @@
 	<title>{config.title}</title>
 </svelte:head>
 
+<section id="Home">
+	<h1>Learning Blog</h1>
+	<a href="#Documentation">Ontdek meer</a>
+</section>
+
 <!-- Information -->
 <section id="Documentation">
 	<h2>Sprints</h2>
