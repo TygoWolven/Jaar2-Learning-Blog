@@ -11,6 +11,10 @@
 
 <section id="Home">
 	<h1>Learning Blog</h1>
+	<p>
+		Welkom in mijn blog! Je zult hier mijn documentatie vinden van de opleiding Frontend Design & 
+		Development. Denk hierbij aan zowel colleges, als presentaties van gastsprekers uit het vakgebied.
+	</p>
 	<a href="#Documentation">Ontdek meer</a>
 </section>
 
@@ -44,8 +48,37 @@
 </section>
 
 <style>
-	section {
-		height: fit-content;
+	#Home {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 60vh;
+	}
+
+	h1 {
+		text-transform: uppercase;
+		margin-top: 0.5em;
+		font-size: 5em;
+	}
+
+	h1 + p {
+		text-align: center;
+	}
+
+	#Home a {
+		background: var(--brand);
+		border: 5px solid var(--brand-light);
+		padding: 0.5em 1em;
+		border-radius: 3em;
+		color: var(--white);
+		margin-top: 2em;
+		transition: 0.5s ease;
+		text-decoration: none;
+	}
+
+	#Home a:hover {
+		padding: 0.5em 2.5em;
+		box-shadow: 0 0 50px 5px var(--brand);
 	}
 
 	.posts {
@@ -77,7 +110,7 @@
 	}
 
 	h2 {
-		font-size: 3.5em;
+		font-size: var(--font-size-fluid-3);
 	}
 
 	h2:not(:first-child) {
