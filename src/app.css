@@ -77,6 +77,10 @@ html {
 	--background: var(--background-dark);
 	--border: var(--border-dark);
 
+	#Home a {
+		border: 5px solid var(--brand-light);
+	}
+
 	a:hover {
 		text-decoration: underline var(--brand-light);
 	}
@@ -94,6 +98,10 @@ html {
 	--surface-4: var(--surface-4-light);
 	--background: var(--background-light);
 	--border: var(--border-light);
+
+	#Home a {
+		border: 5px solid var(--brand-dark);
+	}
 
 	a:hover {
 		text-decoration: underline var(--brand-dark);

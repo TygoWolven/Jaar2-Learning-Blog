@@ -30,6 +30,7 @@
 
 	.logo > img {
 		height: 30px;
+		margin-bottom: 1em;
 		border-radius: unset;
 	}
 

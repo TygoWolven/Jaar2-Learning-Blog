@@ -38,7 +38,7 @@
 						{/if}
 					</div>
 					<p class="description">{post.description}</p>
-				</li>>
+				</li>
 			{/if}
 		{/each}
 	</ul>
@@ -88,29 +88,29 @@
 	#Home {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 		height: 60vh;
 	}
 
 	h1 {
 		text-transform: uppercase;
 		margin-top: 0.5em;
-		font-size: 5em;
+		font-size: 10vw;
 	}
 
 	h1 + p {
-		text-align: center;
+		max-inline-size: 85vw;
 	}
 
 	#Home a {
+		color: #DEE2E6;
 		background: var(--brand);
-		border: 5px solid var(--brand-light);
 		padding: 0.5em 1em;
-		border-radius: 3em;
-		color: var(--white);
 		margin-top: 2em;
+
+		border-radius: 3em;
 		transition: 0.5s ease;
 		text-decoration: none;
+		width: fit-content;
 	}
 
 	#Home a:hover {
@@ -125,7 +125,13 @@
 	}
 
 	.post {
-		max-width: 25em;
+		width: 25em;
+		border-right: 1px solid var(--border);
+		padding-right: var(--size-7);
+	}
+
+	.post a {
+		line-height: 1em;
 	}
 
 	.post div {
@@ -144,11 +150,6 @@
 
 	.status.false span {
 		color: rgb(175, 0, 0);
-	}
-
-	.post:not(:last-child) {
-		border-right: 1px solid var(--border);
-		padding-right: var(--size-7);
 	}
 
 	.title {
@@ -171,6 +172,28 @@
 
 	h2:not(:first-child) {
 		margin-top: 1.5em;
+	}
+
+	@media (min-width: 768px) {
+		#Home {
+			align-items: center;
+		}
+
+		h1 {
+			font-size: 5em;
+		}
+
+		h1 + p {
+			text-align: center;
+			max-inline-size: var(--size-content-3);
+		}
+	}
+
+	@media (max-width: 65em) {
+		.post {
+			max-width: unset;
+			width: 90vw;
+		}
 	}
 </style>
 

@@ -50,12 +50,6 @@
 		padding-block: var(--size-9);
 	}
 
-	@media (min-width: 1440px) {
-		.layout {
-			padding-inline: 0;
-		}
-	}
-
 	@media (max-width: 768px) {
 		svg {
 			rotate: 90deg;
