@@ -51,6 +51,10 @@
 	}
 
 	@media (max-width: 768px) {
+		.layout {
+			overflow-x: hidden;
+		}
+		
 		svg {
 			rotate: 90deg;
 		}
