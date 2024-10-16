@@ -3,6 +3,8 @@
 	import * as config from '$lib/config'
 	import { CircleCheck, CircleX } from 'lucide-svelte'
 
+	import Posts from '$lib/+Posts.svelte'
+
 	export let data
 </script>
 
@@ -36,12 +38,12 @@
 						{/if}
 					</div>
 					<p class="description">{post.description}</p>
-				</li>
+				</li>>
 			{/if}
 		{/each}
 	</ul>
 
-	<h2>We Love Webs</h2>
+	<h2>Gastsprekers</h2>
 	<ul class="posts">
 		{#each data.posts as post}
 			{#if post.value === 2}
