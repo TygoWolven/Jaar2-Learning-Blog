@@ -50,11 +50,7 @@
 		padding-block: var(--size-9);
 	}
 
-	@media (max-width: 768px) {
-		.layout {
-			overflow-x: hidden;
-		}
-		
+	@media (max-width: 768px) {		
 		svg {
 			rotate: 90deg;
 		}

@@ -3,8 +3,6 @@
 	import * as config from '$lib/config'
 	import { CircleCheck, CircleX } from 'lucide-svelte'
 
-	import Posts from '$lib/+Posts.svelte'
-
 	export let data
 </script>
 
