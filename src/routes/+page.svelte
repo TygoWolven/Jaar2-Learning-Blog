@@ -2,7 +2,6 @@
 	import { formatDate } from '$lib/utils'
 	import * as config from '$lib/config'
 	import { CircleCheck, CircleX } from 'lucide-svelte'
-	
 	export let data
 </script>
 

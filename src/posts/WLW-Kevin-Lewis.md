@@ -1,6 +1,6 @@
 ---
 title: Kevin Lewis van Directus
-description: Hier documenteer ik wat ik heb geleerd in sprint 15.
+description: Hier documenteer ik wat ik heb geleerd in de We Love Web van Kevin Lewis.
 date: '2024-10-14'
 categories:
   - Semester 3
