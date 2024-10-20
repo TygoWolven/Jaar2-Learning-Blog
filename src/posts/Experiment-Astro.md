@@ -60,4 +60,8 @@ Zodra je Astro hebt geinstalleerd krijg je een aantal mappen en bestanden in je 
 └── package.json
 ```
 
-Astro is een hele flexibel framework. Dit is te zien aan het gebruik van compontents, je kunt namelijk components van andere frameworks gebruiken. Denk hierbij aan React, Vue, Svelte en Preact. Verder kun je alle statische elementen zoals afbeedlingen in de `/public` map stoppen.
+Astro is een heel flexibel framework. Dit is te zien aan het gebruik van compontents, je kunt namelijk components van andere frameworks gebruiken. Denk hierbij aan React, Vue, Svelte en Preact. Verder kun je alle statische elementen zoals afbeedlingen in de `/public` map stoppen.
+
+## Astro Tutorial
+
+https://www.youtube.com/watch?v=e-hTm5VmofI
