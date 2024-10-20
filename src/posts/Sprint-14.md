@@ -205,10 +205,14 @@ Voor de sprint review heb ik een aantal vragen voorbereid die ik wil gaan stelle
 - Zijn er bepaalde functies die je graag zou willen zien binnen het project?
 
 ## Feedback van de Sprint Review
-Het idee om alle sprints te weergeven naast de huidige knoppen is een vet idee! Maar niet voor op de homepagina, dit kan eventueel in een detailpagina.
- 
-Het is heel belangrijk om de primaire functie van de website te behouden, en dat is zo snel mogelijk je rooster kunnen zien. Probeer dit niet te verstoren door onnodige afbeeldingen op de pagina te zetten zoals 'fdnd.nl'.
- 
-Momenteel is de website niet toegankelijk op mobiel, zorg dat de volgende versie mobile-first is gemaakt. Veel leerlingen gebruiken deze website alleen op hun mobiel.
- 
-In de repository fdnd components zijn svg's te vinden van alle HvA logo's.
+**Vraag van ons** <br>
+Antwoord van de opdrachtgever
+
+**Voorstel van een feature: Zodra er op de sprint-knop geklikt wordt, klapt er een carrousel uit waarbij alle sprints zichtbaar worden.** <br>
+Het idee om alle sprints te weergeven naast de huidige knoppen is een vet idee! Maar niet voor op de homepagina, daarvoor is het te uitgebreid. Dit zou wel leuk kunnen staan op bijvoorbeeld de detailpagina.
+
+**Wat denk je van het aankleden van de website met bijvoorbeeld een afbeelding?** <br>
+Het is heel belangrijk om de primaire functie van de website te behouden, en dat is zo snel mogelijk je rooster kunnen zien. Probeer dit niet te verstoren door onnodige afbeeldingen op de pagina te zetten zoals op 'fdnd.nl'.
+
+**Eigen input van de opdrachtgever:** <br>
+Momenteel is de website niet toegankelijk op mobiel, zorg dat de volgende versie mobile-first is gemaakt. Veel leerlingen gebruiken deze website alleen op hun mobiel dus dat moet goed ondersteund zijn. Voor het gebruik van de HvA logo's en afbeeldingen kun je kijken in de repository van fdnd genaamd 'compontents'. Hier staan alle svg's van zowel logo's als afbeeldingen.
