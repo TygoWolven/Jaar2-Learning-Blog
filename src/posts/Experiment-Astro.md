@@ -40,7 +40,7 @@ je 'dev server' opstarten.`
 npm run dev
 ````
 
-Nu kun je aan de slag gaan met Astro! De basis van je project is geinstalleerd dus nu word alles experimenteren. Om het werken met Astro fijner te maken voor mezelf heb ik 2 `Extensions` geinstalleerd in Visual Studio Code. Allebei genaamd `Astro`.
+Nu kun je aan de slag gaan met Astro! De basis van je project is geinstalleerd dus nu word alles experimenteren. Om het werken met Astro fijner te maken voor mezelf heb ik een aantal `Extensions` geinstalleerd in Visual Studio Code. Eentje genaamd `Astro`, die zorgt ervoor dat Visual Studio Code je project herkent als Astro-project. Ook heb ik een extension genaamd `Astro Snippets` die je helpt om componenten sneller en gemakkelijker op te bouwen.
 
 ## Basis Astro Layout
 Zodra je Astro hebt geinstalleerd krijg je een aantal mappen en bestanden in je project. Om nieuwe pagina's aan te maken kun je `.astro` of `.md` bestanden toevoegen in de `/pages` map. Dit zorgt er dan voor dat ieder bestand een route is op basis van de bestandsnaam.
@@ -64,4 +64,8 @@ Astro is een heel flexibel framework. Dit is te zien aan het gebruik van compont
 
 ## Astro Tutorial
 
-https://www.youtube.com/watch?v=e-hTm5VmofI
+https://www.youtube.com/watch?v=e-hTm5VmofI   (20:00)
+
+In vergelijking met sveltekit is het eerste wat me opviel dat er geen gebruik gemaakt word van `<script>` tags, maar van 3 streepjes. De functie hiervan is hetzelfde maar je moet het wel even weten.
+
+Ook zijn in beide frameworks de `layout` file aanwezig, echter werken deze wel iets anders. In sveltekit bevat deze een slot die automatisch word gevuld door de juiste pagina, maar in Astro moet je hiervoor eerst de code nesten in een `<Layout>` tag. Alleen de content die binnen deze tag staat word gezien als het slot. Je zou dus kunnen zeggen dat Astro in dit geval meer werk kost.
