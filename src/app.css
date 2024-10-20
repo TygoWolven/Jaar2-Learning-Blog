@@ -134,7 +134,7 @@ li {
 	padding-inline-start: 0;
 }
 
-a {
+a, bold {
 	color: var(--brand);
 	font-weight: 700;
 }

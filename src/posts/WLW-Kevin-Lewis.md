@@ -11,21 +11,13 @@ status: false
 value: 2
 ---
 
-## Directus
-Zijn team focust zich op 3 delen
+## Teams
+Het team van Kevin focust zich binnen Directus op 3 aspecten. Namelijk <bold>Education</bold>, <bold>Community Engagement</bold> en <bold>Extensions</bold> in de marketplace van Directus.
 
-Education
-How do we let people uderstand what directus is
+In het <bold>Education Team</bold> helpt Directus de gebruikers om het product te begrijpen. Bij het <bold>Community Team</bold> helpen ze de community door platformen aan te maken waar mensen bij elkaar kunnen komen, hierbij zorgen ze ook dat er goed word gehandhaafd zodat de community een fijne plek is. Als laatste hebben we nog het <bold>Extensions Team</bold>. Directus is op zichzelf al een heel flexibel systeem om te gebruiken, maar met verschillende extensions kan dit nog verder uitgebreid worden. 
 
-Comminity Engagement
-How do we serve our community (Moderartion, platforms etc.)
-
-Extensions in the Marketplace
-
-
-## How do we make money?
-
-Directus cloud makes money
+## Hoe komt Directus aan geld?
+Binnen Directus is er ook <bold>Directus Cloud</bold>. Dit zorgt voor een prima inkomsten bron omdat mensen hiermee zelf kunnen hosten. Echter heeft Directus nog meerdere manieren om aan geld te komen.
 
 Open source: Created and maintained by the open source initiative
 
