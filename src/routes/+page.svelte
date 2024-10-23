@@ -100,7 +100,8 @@
 
 	#Home a {
 		color: #DEE2E6;
-		background: var(--brand);
+		background: var(--brand-light);
+		border: 5px solid var(--brand-dark);
 		padding: 0.5em 1em;
 		margin-top: 2em;
 
