@@ -27,7 +27,7 @@ Om te kijken of mijn Learning Blog voldoet aan verschillende eisen, heb ik een h
 ### Performance Test
 <img alt="Performance Score 100%" src={Performance100} />
 
-De performance test is uitgevoerd met behulp van de Lighthouse Tool. Als resultaat kwam hier 100% uit, wat betekent dat mijn website hele goede performance heeft. Echter was er nog wel een klein verbeteringspunt gevonden, namelijk dat mijn afbeelding (logo) geen vaste width en height heeft meegekregen. Dit kan ervoor zorgen dat er Layout Shifts plaatsvinden in de pagina. De error die ik kreeg was als volgt: *'Image elements do not have explicit `width` and `height`'*.
+De performance test is uitgevoerd met behulp van de Lighthouse Tool. Als resultaat kwam hier 100% uit, wat betekent dat mijn website hele goede performance heeft en dus zorgt voor een fijne *User Experience*. Echter was er nog wel een klein verbeteringspunt gevonden, namelijk dat mijn afbeelding (logo) geen vaste width en height heeft meegekregen. Dit kan ervoor zorgen dat er Layout Shifts plaatsvinden in de pagina. De error die ik kreeg was als volgt: *'Image elements do not have explicit `width` and `height`'*.
 
 ### Accessibility Test
 <div class="flex">
@@ -35,12 +35,12 @@ De performance test is uitgevoerd met behulp van de Lighthouse Tool. Als resulta
   <img alt="Accessibility Score 100%" src={Accessibility100} />
 </div>
 
-De accessibility test is uitgevoerd met behulp van de Lighthouse Tool. Als resultaat kwam hier 95% uit, wat betekent dat mijn website goed toegankelijk is voor alle gebruikers, maar nog niet perfect. Dit had te maken met dat het contrast op één van mijn knoppen niet goed genoeg was, waardoor deze voor slechtzienden moeilijk te onderscheiden is met de achtergrond van de pagina. De error die ik kreeg was: *'Background and foreground colors do not have a sufficient contrast ratio.'*.
+De accessibility test is uitgevoerd met behulp van de Lighthouse Tool. Als resultaat kwam hier 95% uit, wat betekent dat mijn website goed *toegankelijk* is voor alle gebruikers, maar nog niet perfect. Dit had te maken met dat het contrast op één van mijn knoppen niet goed genoeg was, waardoor deze voor slechtzienden moeilijk te onderscheiden is met de achtergrond van de pagina. De error die ik kreeg was: *'Background and foreground colors do not have a sufficient contrast ratio.'*.
 
 Dit heb ik opgelost door de kleuren op de knop te veranderen, waardoor er een groter contrast is ontstaan met de achtergrond. Nu komt er uit het testresultaat 100% voor toegankelijkheid.
 
 ### Keyboard Tab Test
-Bij deze test heb ik gekeken of ik kan navigeren door de website met alleen mijn `Tab` toets. Als conclusie kan ik hieruit trekken dat dit prima mogelijk is, op de homepagina volgt de focus netjes alle links, waardoor je gemakkelijk kunt navigeren naar bijvoorbeeld alle blog artikelen. Op de pagina van een artikel zelf krijg je ook eerst alle links te zien, waaronder de terug knop die heel belangerijk is.
+Bij deze test heb ik gekeken of ik kan navigeren door de website met alleen mijn `Tab` toets. Als conclusie kan ik hieruit trekken dat dit prima mogelijk is, op de homepagina volgt de focus netjes alle links, waardoor je gemakkelijk kunt navigeren naar bijvoorbeeld alle blog artikelen. Op de detailpagina van een artikel krijg je ook eerst alle links te zien, waaronder de terug knop die heel belangerijk is.
 
 ### Kleurcontrast Test
 Voor deze test ben ik gaan kijken naar het contrast op mijn website. Hierbij specifiek naar het contrast bij de teksten op mijn website, aangezien dat de belangerijke content is voor alle gebruikers. Ik heb gekeken naar mijn witte tekst die ik gebruik voor de informatie, en naar de groene tekst die ik gebruik voor mijn titels.
