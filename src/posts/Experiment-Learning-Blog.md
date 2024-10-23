@@ -12,9 +12,13 @@ value: 3
 ---
 
 <script>
-    import Performance100 from "$lib/assets/performance-100.png"
-    import Accessibility95 from "$lib/assets/accessibility-95.png"
-    import Accessibility100 from "$lib/assets/accessibility-100.png"
+  import Performance100 from "$lib/assets/performance-100.png"
+  import Accessibility95 from "$lib/assets/accessibility-95.png"
+  import Accessibility100 from "$lib/assets/accessibility-100.png"
+  import CCA1 from "$lib/assets/CCA-tekst-achtergrond.png"
+  import CCA2 from "$lib/assets/CCA-grote-tekst-achtergrond.png"
+  import Browsers from "$lib/assets/browsers.png"
+  import W3C from "$lib/assets/w3c.png"
 </script>
 
 ## Testresultaten
@@ -39,16 +43,37 @@ Dit heb ik opgelost door de kleuren op de knop te veranderen, waardoor er een gr
 Bij deze test heb ik gekeken of ik kan navigeren door de website met alleen mijn `Tab` toets. Als conclusie kan ik hieruit trekken dat dit prima mogelijk is, op de homepagina volgt de focus netjes alle links, waardoor je gemakkelijk kunt navigeren naar bijvoorbeeld alle blog artikelen. Op de pagina van een artikel zelf krijg je ook eerst alle links te zien, waaronder de terug knop die heel belangerijk is.
 
 ### Kleurcontrast Test
+Voor deze test ben ik gaan kijken naar het contrast op mijn website. Hierbij specifiek naar het contrast bij de teksten op mijn website, aangezien dat de belangerijke content is voor alle gebruikers. Ik heb gekeken naar mijn witte tekst die ik gebruik voor de informatie, en naar de groene tekst die ik gebruik voor mijn titels.
 
-### WCAG Test
+<br>
+<div class="flex cca">
+  <img alt="Colour Contrast Analyser Testresult" src={CCA1} />
+  <img alt="Colour Contrast Analyser Testresult" src={CCA2} />
+</div>
+
+Als resultaat is hier gekomen dat mijn witte tekst (AAA) scoort. Dit betekent dat het perfect toegankelijk is om te gebruiken. Echter hebben mijn groene titels minder goed gescoord, zo zijn deze niet geslaagd als normale tekst, en bij (AAA) zelfs niet als grote tekst. Nu is dit probleem niet heel groot omdat deze titels alleen maar in het groot worden gebruikt, dus dan zouden ze alsnog (AA) scoren, oftewel alsnog goed toegankelijk.
 
 ### HTML Validator Test
+Aan de hand van een W3C validatie, https://validator.w3.org/, heb ik mijn website getest op semantische code. Hieruit kwamen geen ernstige errors, wat betekent dat mijn website prima op orde is qua code.
+
+<br>
+<img alt="HTML Validation Test" src={W3C} />
 
 ### Browser Test
+Ik heb mijn live-website op meerdere browsers getest. Denk hierbij aan Google Chrome, Microsoft Edge, Firefox, Opera en Brave.
+
+<br>
+<img alt="Browser Logo's" src={Browsers} />
+
+Bij ieder van deze browsers leek mijn website correct te functioneren, zonder problemen. Er was af een toe wel een verschil in reactietijd, zo was Chrome bijvoorbeeld sneller met het laden van een artikel dan Microsoft Edge of Firefox.
 
 <style> 
   .flex {
     display: flex;
     gap: 1em;
+  }
+
+  .cca > img {
+    width: 50%;
   }
 </style>

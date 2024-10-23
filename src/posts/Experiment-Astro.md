@@ -11,6 +11,10 @@ status: false
 value: 3
 ---
 
+<script>
+  import Astro from "$lib/assets/astro.png"
+</script>
+
 ## Installatie van Astro
 De installatie lijkt heel erg op dat van Sveltekit, dit komt mede doordat het allebei frameworks zijn. Om te laten zien hoe deze installatie gaat zal ik hem hier even nabootsen.
 <br>
@@ -39,6 +43,8 @@ later nog 'npm install' moeten uitvoeren.`
 je 'dev server' opstarten.`
 npm run dev
 ````
+<br>
+<img alt="Welcome to Astro" src={Astro} />
 
 Nu kun je aan de slag gaan met Astro! De basis van je project is geinstalleerd dus nu word alles experimenteren. Om het werken met Astro fijner te maken voor mezelf heb ik een aantal `Extensions` geinstalleerd in Visual Studio Code. Eentje genaamd `Astro`, die zorgt ervoor dat Visual Studio Code je project herkent als Astro-project. Ook heb ik een extension genaamd `Astro Snippets` die je helpt om componenten sneller en gemakkelijker op te bouwen.
 
