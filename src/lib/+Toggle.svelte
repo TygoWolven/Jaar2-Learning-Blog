@@ -29,7 +29,13 @@
 	}
 
 	button > * {
-		display: flex;
+		display: none;
 		gap: var(--size-2);
+	}
+
+	@media (scripting: enabled) {
+		button > * {
+			display: flex;
+		}
 	}
 </style>
