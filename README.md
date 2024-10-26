@@ -15,9 +15,10 @@ Mijn learning-blog, de plek waar ik mijn tweedejaars leerproces documenteer van 
 <img width="700" src="https://github.com/user-attachments/assets/a50fc97e-7132-4b1f-b2f6-d64cf7efc72a">
 
 ## Kenmerken
-- Sveltekit
-- Markdown
-- Netlify
+<img src="https://img.shields.io/badge/SvelteKit-FF3E00?style=for-the-badge&logo=Svelte&logoColor=white" />
+<img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
 
 ## Installatie
 
@@ -30,4 +31,6 @@ https://www.youtube.com/watch?v=zCkTsfALd1Q&ab_channel=BraydenGirard
 
 ## Licentie
 
-> Ik heb op dit project nog geen licentie.
+> Dit project bevat een MIT-Licentie.
+
+![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
