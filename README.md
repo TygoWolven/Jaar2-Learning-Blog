@@ -10,9 +10,9 @@
     - [Detailpagina](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#detailpagina)
   - [Kenmerken](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#kenmerken)
   - [Installatie](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#installatie)
-    - [Clone het project](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#clone-het-project)
-    - [Installeer alle npm-pakketten](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#installeer-alle-npm-pakketten)
-    - [Start je developer server](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#start-je-developer-server)
+    - [Clone het project](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#-clone-het-project)
+    - [Installeer alle npm-pakketten](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#-installeer-alle-npm-pakketten)
+    - [Start je developer server](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#-start-je-developer-server)
   - [Bronnen](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#bronnen)
   - [Licentie](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#licentie)
 ## Beschrijving
