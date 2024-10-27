@@ -205,8 +205,10 @@ Voor de sprint review heb ik een aantal vragen voorbereid die ik wil gaan stelle
 - Zijn er bepaalde functies die je graag zou willen zien binnen het project?
 
 ## Feedback van de Sprint Review
+````
 **Vraag van ons** <br>
 Antwoord van de opdrachtgever
+````
 
 **Voorstel van een feature: Zodra er op de sprint-knop geklikt wordt, klapt er een carrousel uit waarbij alle sprints zichtbaar worden.** <br>
 Het idee om alle sprints te weergeven naast de huidige knoppen is een vet idee! Maar niet voor op de homepagina, daarvoor is het te uitgebreid. Dit zou wel leuk kunnen staan op bijvoorbeeld de detailpagina.

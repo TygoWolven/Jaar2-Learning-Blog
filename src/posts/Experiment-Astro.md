@@ -68,10 +68,50 @@ Zodra je Astro hebt geinstalleerd krijg je een aantal mappen en bestanden in je 
 
 Astro is een heel flexibel framework. Dit is te zien aan het gebruik van compontents, je kunt namelijk components van andere frameworks gebruiken. Denk hierbij aan React, Vue, Svelte en Preact. Verder kun je alle statische elementen zoals afbeedlingen in de `/public` map stoppen.
 
-## Astro Tutorial
+## Astro Beginner Tutorial
 
-https://www.youtube.com/watch?v=e-hTm5VmofI   (20:00)
+https://www.youtube.com/watch?v=acgIGT0J99U&t=786s
 
-In vergelijking met sveltekit is het eerste wat me opviel dat er geen gebruik gemaakt word van `<script>` tags, maar van 3 streepjes. De functie hiervan is hetzelfde maar je moet het wel even weten.
+Omdat ik nieuw ben met Astro besloot ik een beginners tutorial te kijken waarin de basis functies van Astro worden uitgelegd. Zo zijn er een aantal dingen aan bod gekomen:
+- De flexibiliteit van Astro
+- Geen Javascript runtime voor verbeterde performance
+- Het gebruik van `.md` bestanden binnen Astro
+- Componenten met scoped CSS
+- Astro Props
 
-Ook zijn in beide frameworks de `layout` file aanwezig, echter werken deze wel iets anders. In sveltekit bevat deze een slot die automatisch word gevuld door de juiste pagina, maar in Astro moet je hiervoor eerst de code nesten in een `<Layout>` tag. Alleen de content die binnen deze tag staat word gezien als het slot. Je zou dus kunnen zeggen dat Astro in dit geval meer werk kost.
+In vergelijking met sveltekit is het eerste wat me opviel dat er geen gebruik gemaakt word van `<script>` tags, maar van de 3 typescript `---` streepjes. De functie hiervan is hetzelfde maar je moet het wel even weten. Ook zijn in beide frameworks de `layout` file aanwezig, echter werken deze wel iets anders. In sveltekit bevat deze een slot die automatisch word gevuld door de juiste pagina, maar in Astro moet je hiervoor eerst de code nesten in een `<Layout>` tag. Alleen de content die binnen deze tag staat word gezien als het slot. Je zou dus kunnen zeggen dat Astro in dit geval meer werk kost.
+
+
+## Astro Props
+Astro ondersteunt props. Dit zijn variabelen die je in een component kunt gebruiken. Zo kun je bijvoorbeeld een enkel component aanmaken, maar hiervan wel op elke pagina de content aanpassen. Dit heeft dan weer te maken met de variabelen binnenin het component.
+<br>
+
+````ts
+---
+interface Props {
+	title: string;
+	body: string;
+}
+
+const {title, body } = Astro.props;
+---
+
+<li>
+	<h2>
+		{title}
+	</h2>
+	<p>
+		{body}
+	</p>
+</li>
+
+````
+Nu je de Astro Props hebt opgezet binnen je component kun je in je werkbestand het component aanspreken en de variabelen aanpassen.
+<br>
+
+````
+	<Card
+		title="Sprint 13:"
+		body="Your Tribe for Life"
+	/>
+````
