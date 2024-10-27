@@ -22,6 +22,21 @@ Mijn learning-blog, de plek waar ik mijn tweedejaars leerproces documenteer van 
 
 ## Installatie
 
+### 🧑‍🤝‍🧑 Clone het project
+````
+https://github.com/TygoWolven/Jaar2-Learning-Blog.git
+````
+
+### 📦️ Installeer alle npm-pakketten
+````
+npm install
+````
+
+### 💿️ Start je developer server
+````
+npm run dev
+````
+
 ## Bronnen
 - ¹ **Joy of Code:** *"Build And Deploy A Sveltekit Markdown Blog"* <br>
 https://www.youtube.com/watch?v=RhScu3uqGd0&t=130s&ab_channel=JoyofCode
