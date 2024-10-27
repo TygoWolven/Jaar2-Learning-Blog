@@ -11,8 +11,9 @@
   - [Kenmerken](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#kenmerken)
   - [Installatie](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#installatie)
     - [Clone het project](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#-clone-het-project)
-    - [Installeer alle npm-pakketten](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#-installeer-alle-npm-pakketten)
-    - [Start je developer server](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#-start-je-developer-server)
+    - [Installeer alle npm-pakketten](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#%EF%B8%8F-installeer-alle-npm-pakketten)
+    - [Start je developer server](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#%EF%B8%8F-start-je-developer-server)
+  - [To-do List](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#to-do-list)
   - [Bronnen](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#bronnen)
   - [Licentie](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#licentie)
 ## Beschrijving
@@ -49,6 +50,10 @@ npm install
 ````
 npm run dev
 ````
+## To-do List
+- [ ] Categorieën ombouwen tot componenten
+- [ ] Vette animaties integreren
+- [ ] Blog-artikelen afmaken
 
 ## Bronnen
 - ¹ **Joy of Code:** *"Build And Deploy A Sveltekit Markdown Blog"* <br>
