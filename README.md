@@ -3,18 +3,18 @@
 **Live link:** [tygowolven-learning-blog.netlify.app](https://tygowolven-learning-blog.netlify.app/)
 
 ## Inhoudsopgave
-- [Titel]()
-  - [Beschrijving](}
-  - [Screenshots]()
-    - [Homepagina]()
-    - [Detailpagina]()
-  - [Kenmerken]()
-  - [Installatie]()
-    - [Clone het project]()
-    - [Installeer alle npm-pakketten]()
-    - [Start je developer server]()
-  - [Bronnen]()
-  - [Licentie]()
+- [Titel](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#learning-blog-van-tygo-wolven)
+  - [Beschrijving](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#beschrijving)
+  - [Screenshots](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#screenshots)
+    - [Homepagina](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#homepagina)
+    - [Detailpagina](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#detailpagina)
+  - [Kenmerken](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#kenmerken)
+  - [Installatie](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#installatie)
+    - [Clone het project](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#clone-het-project)
+    - [Installeer alle npm-pakketten](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#installeer-alle-npm-pakketten)
+    - [Start je developer server](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#start-je-developer-server)
+  - [Bronnen](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#bronnen)
+  - [Licentie](https://github.com/TygoWolven/Jaar2-Learning-Blog?tab=readme-ov-file#licentie)
 ## Beschrijving
 Mijn learning-blog, de plek waar ik mijn tweedejaars leerproces documenteer van de opleiding: *"Frontend Design & Development"*. Zie dit meer als een persoonlijk blog, een verzamelplek van alle dingen die ik heb geleerd. Er is informatie te vinden over gastsprekers uit het vakgebied, maar ook informatie die ik heb opgestoken uit de schoolcollege's.
 
