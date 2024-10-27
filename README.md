@@ -2,6 +2,19 @@
 
 **Live link:** [tygowolven-learning-blog.netlify.app](https://tygowolven-learning-blog.netlify.app/)
 
+## Inhoudsopgave
+- [Titel]()
+  - [Beschrijving](}
+  - [Screenshots]()
+    - [Homepagina]()
+    - [Detailpagina]()
+  - [Kenmerken]()
+  - [Installatie]()
+    - [Clone het project]()
+    - [Installeer alle npm-pakketten]()
+    - [Start je developer server]()
+  - [Bronnen]()
+  - [Licentie]()
 ## Beschrijving
 Mijn learning-blog, de plek waar ik mijn tweedejaars leerproces documenteer van de opleiding: *"Frontend Design & Development"*. Zie dit meer als een persoonlijk blog, een verzamelplek van alle dingen die ik heb geleerd. Er is informatie te vinden over gastsprekers uit het vakgebied, maar ook informatie die ik heb opgestoken uit de schoolcollege's.
 
