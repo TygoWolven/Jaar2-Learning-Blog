@@ -5,10 +5,6 @@
 	export let data
 </script>
 
-<svelte:head>
-	<title>{config.title}</title>
-</svelte:head>
-
 <section id="Home">
 	<h1>Learning Blog</h1>
 	<p>
