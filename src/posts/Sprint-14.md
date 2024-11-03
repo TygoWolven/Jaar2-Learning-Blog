@@ -106,7 +106,7 @@ Business Owner:
 Eigenaar van een bedrijf.
 
 Continuous Integration:
-Een automatische integratie van de live-website zodra er updates zijn.
+Een automatische integratie van de live-website zodra er updates zijn (nieuwe commit).
 
 Daily Scrum
 

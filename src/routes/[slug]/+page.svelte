@@ -10,7 +10,7 @@
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
-<a href="/">Terug</a>
+<a href="/" class="back-button">Terug</a>
 
 <article>
   <hgroup>
@@ -47,5 +47,10 @@
 	.tags > * {
 		padding: var(--size-2) var(--size-3);
 		border-radius: var(--radius-round);
+	}
+
+	.back-button {
+		position: sticky;
+		top: 2em;
 	}
 </style>
