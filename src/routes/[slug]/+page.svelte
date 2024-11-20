@@ -1,8 +1,8 @@
 <script lang="ts">
-	import * as config from '$lib/config'
-
+  import * as config from '$lib/config'
   export let data
 </script>
+
 
 <svelte:head>
   <title>{config.title} - {data.meta.title}</title>

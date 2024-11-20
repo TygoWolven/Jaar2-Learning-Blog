@@ -7,7 +7,7 @@ categories:
   - Sprint 15
   - We Love Web
 published: true
-status: false
+status: true
 value: 2
 ---
 
@@ -40,39 +40,19 @@ Je moet onthouden dat er nooit een oplossing is die aan al je criteria voldoet. 
 
 ## Artificial Intelligence
 
-Je loopt risico als de AI niet accuraat is, wil je dit risico lopen in het bedrijfsleven?
-
-Cost benefit analysis
-compare the cost for the benefits that the choice will make
-
-swot analysis 
-strengths, weaknesses, opportunities, threats
-
-weighted decision matrix
-
+Het gebruik van <strong tabindex="0">Artificial Intelligence<span>Een machine die menselijke vaardigheden kan vertonen</span></strong> kan heel handig zijn, maar je loopt het risico dat de AI niet accuraat is. Nu moet je jezelf de vraag stellen of je dit risico wilt lopen? Een aantal populaire AI's van tegenwoordig zijn **ChatGPT** en **Gemini**.
 
 ### You are going to make shitty decisions
-You cant always make the best decisions, but you can make the best of the decisions you made.
-
-What tools do you use to track and maintain velocity?
-We estimate time, thats it
-Not specifically poker planning
-
-Als alles afkomt binnen de gegeven tijd krijgen de werknemers vrijheid in hun tijd, ookal zijn ze er minder lang mee bezig. Tenzij ze aangeven te weinig te doen, dan krijgen ze meer werk.
+In je carière ga je hoe dan ook slechte beslissingen maken, maar zijn ze ook wel echt slecht? Zo is er een motto: **_"You cant always make the best decisions, but you can make the best of the decisions you made."_**
 
 ## How does Directus get feedback?
-From multiple places
+Directus krijgt feedback op meerdere manieren. Zo checkt Directus regelmatig bij klanten hoe het gaat, en geven ze de klant de optie om feedback achter te laten. Maar ook krijgt Directus feedback op Github, bij de <strong tabindex="0">feature requests.<span>Functies aangevraagd door klanten</span></strong>
 
-as customer directus checks in on you
-feature requests on github gets directus feedback
-
-yougotthis.io is a personal project, a set of learning recources
-
-directus TV has a show named Directus Academy, this is highly recommended to get to know Directus. There are a few important episodes that might be useful to watch:
-- Episode 2: Access Control
-- Episode 3: Directus Connect
-- Episode 7: Theming
-- Episode 9: Extensions
+Een manier om kennis te maken met Directus is hun website genaamd Directus TV. Daar hebben ze een show genaamd Directus Academy waarin een aantal belangrijke uitlegvideo's te vinden zijn:
+- **Episode 2:** Access Control
+- **Episode 3:** Directus Connect
+- **Episode 7:** Theming
+- **Episode 9:** Extensions
 
 
 

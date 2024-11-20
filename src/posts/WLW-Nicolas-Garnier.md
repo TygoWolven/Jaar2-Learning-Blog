@@ -12,19 +12,19 @@ value: 2
 ---
 
 ## Over Nicolas
-Nicolas Garnier is in 2012 begonnen als <bold>creative-developer</bold>. In deze tijd eindigde Flash, en begon de introductie van Javascript. Een aantal jaar later, in 2018, is hij overgestapt op het <bold>freelancen</bold>. Zo begon hij te werken voor agencies en voor start-ups.
+Nicolas Garnier is in 2012 begonnen als <strong tabindex="0">Creative-Developer<span>Een developer met oog voor creativiteit</span></strong> In deze tijd eindigde Flash, en begon de introductie van Javascript. Een aantal jaar later, in 2018, is hij overgestapt op het **freelancen**. Zo begon hij te werken voor agencies en voor start-ups.
 
 ### Wat is een creative-developer?
-Creative-developer is simpelweg een mooie term voor een <bold>developer met oog voor creativiteit</bold>. Hierbij gebruikt de developer alle beschikbare tools om een creatieve, maar ook technische challenge op te lossen. Dit doet hij dan zowel met Javascript, CSS, WebGL, Processing, Unity, GenAI en LLM. 
+Creative-developer is simpelweg een mooie term voor <strong tabindex="0">een developer met oog voor creativiteit.<span>Creative-Developer</span></strong> Hierbij gebruikt de developer alle beschikbare tools om een creatieve, maar ook technische challenge op te lossen. Dit doet hij dan zowel met Javascript, CSS, WebGL, Processing, Unity, GenAI en LLM. 
 
-Creative-developers maken onder andere veel gebruik van <bold>animaties</bold>, want met animaties kun je een verhaal vertellen op het web. Zodra je animaties combineert met interactiviteit kun je de gebruiker beinvloeden met een bepaalde sfeer.
+Creative-developers maken onder andere veel gebruik van **animaties**, want met animaties kun je een verhaal vertellen op het web. Zodra je animaties combineert met interactiviteit kun je de gebruiker beinvloeden met een bepaalde sfeer.
 
 ## Een aantal websites
 ['Vita Architecture'](https://vitaarchitecture.com/) is een project van Nicolas die heeft hij gemaakt in 2021. Hierbij hebben ze gebruik gemaakt van soepele animaties zodat
 de pagina niet zo hard overkomt bij de gebruiker.
 
 De website van ['Lief Amsterdam'](https://liefamsterdam.nl/) gaat ook om het plezier maken in een website, terwijl je het toch subtiel wilt houden. Zo kun je
-een hart zachtjes laten kloppen, want dat is de <bold>natuurlijke manier</bold> van wat een hart doet. Maar deze kleine 
+een hart zachtjes laten kloppen, want dat is de **natuurlijke manier** van wat een hart doet. Maar deze kleine 
 dingen zorgen toch voor een mooie samenhang binnen de website, en geven de gebruiker een gevoel van houvast.
 
 Verder liet Nicolas nog een aantal vette websites zien waar je kunt kijken voor inspiratie:
