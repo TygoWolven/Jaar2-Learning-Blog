@@ -11,45 +11,32 @@ status: false
 value: 2
 ---
 
-## Teams
-Het team van Kevin focust zich binnen Directus op 3 aspecten. Namelijk <bold>Education</bold>, <bold>Community Engagement</bold> en <bold>Extensions</bold> in de marketplace van Directus.
+<script>
+    import FastGoodCheapTriangle from "$lib/assets/fast-good-cheap-triangle.png"
+</script>
 
-In het <bold>Education Team</bold> helpt Directus de gebruikers om het product te begrijpen. Bij het <bold>Community Team</bold> helpen ze de community door platformen aan te maken waar mensen bij elkaar kunnen komen, hierbij zorgen ze ook dat er goed word gehandhaafd zodat de community een fijne plek is. Als laatste hebben we nog het <bold>Extensions Team</bold>. Directus is op zichzelf al een heel flexibel systeem om te gebruiken, maar met verschillende extensions kan dit nog verder uitgebreid worden. 
+## Teams
+Het team van Kevin focust zich binnen Directus op 3 aspecten. Namelijk **Education**, **Community Engagement** en **Extensions** in de marketplace van Directus.
+
+In het **Education Team** helpt Directus de gebruikers om het product te begrijpen. Bij het **Community Team** helpen ze de community door platformen aan te maken waar mensen bij elkaar kunnen komen, hierbij zorgen ze ook dat er goed word gehandhaafd zodat de community een fijne plek is. Als laatste hebben we nog het **Extensions Team**. Directus is op zichzelf al een heel flexibel systeem om te gebruiken, maar met verschillende extensions kan dit nog verder uitgebreid worden. 
 
 ## Hoe komt Directus aan geld?
-Binnen Directus is er ook <bold>Directus Cloud</bold>. Dit zorgt voor een prima inkomsten bron omdat mensen hiermee zelf kunnen hosten. Echter heeft Directus nog meerdere manieren om aan geld te komen.
+Binnen Directus is er ook **Directus Cloud**. Dit zorgt voor een prima inkomsten bron omdat mensen hiermee zelf kunnen hosten. Echter heeft Directus nog meerdere manieren om aan geld te komen.
 
-Open source: Created and maintained by the open source initiative
-
-License: Bussinenss Source Licence
-
-Proffesional Service
-Like going to a company to help them use Directus
-
-Directus Plus
-
+Door middel van hun <strong tabindex="0">Open Source<span>Software waarvan broncode openbaar is</span></strong> verdienen ze geld, omdat die onderhouden wordt door de community. Ook hebben ze een <strong tabindex="0">License<span>Business Source License</span></strong> die ze verkopen, waarmee de gebruikers meer toegang krijgen tot bepaalde functies. Verder heeft Directus ook een **Directus Plus** die je kunt kopen. Dit is een premium versie van Directus. Als laatste biedt Directus ook een **Proffesional Service** waarbij werknemers langs bedrijven gaan om ze te helpen bij het opzetten van Directus.
 
 ## Choices are tradeoffs
+Je moet onthouden dat er nooit een oplossing is die aan al je criteria voldoet. Zo moet je een keuze maken tussen snel, goed of goedkoop. Dit principe wordt mooi uitgelegd aan de hand van de onderstaande afbeelding.
+<br>
+<img alt="The Fast, Good and Cheap triangle" src={FastGoodCheapTriangle} />
 
-Theres never a solution that will anwser all your needs.
+**Perfectionism:** Kiezen om op te leveren wanneer het goed genoeg is, of door te gaan en het perfect proberen te maken.
 
-IMG FAST GOOD OR CHEAP TRIANGLE
+**Tech Stack Selection:** Waarom kiezen voor iets nieuws, terwijl je kennis hebt van het oude?
 
-### Perfectionism
+**Performance vs Maintainability:** Is het het waard om iets beter te laten performen, of wil je het ook onderhoudbaar houden voor andere developers?
 
-Choosing when something is good enough to deliver, or to keep going and try to make it perfect.
-
-### Tech Stack Selection
-
-Why choose the best when you have old with knowledge
-
-### Performance vs Maintainability
-
-Is it worth making something performe better, or do you want to keep it more maintainable for other developers to udnerstand.
-
-### Velocity vs Flexibility
-
-OBS met veel opties, of een programma die je snel opzet en gelijk aan de slag kan
+**Velocity vs Flexibility:** Zou je OBS gebruiken met veel opties? Of een programma die snel opstart waar je zo mee aan de slag kan?
 
 ## Artificial Intelligence
 

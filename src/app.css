@@ -126,9 +126,57 @@ li {
 	padding-inline-start: 0;
 }
 
-a, bold {
+a {
 	color: var(--brand);
 	font-weight: 700;
+}
+
+strong {
+	position: relative;
+	color: var(--brand);
+	font-weight: 700;
+}
+
+strong > span {
+	bottom: 100%;
+	display: none;
+	position: absolute;
+	font-style: italic;
+	border-radius: 10px;
+	white-space: nowrap;
+	font-weight: lighter;
+	padding: 0.2rem 1rem;
+	background-color: var(--surface-4);
+	border: 2px solid rgb(75, 75, 75);
+	box-shadow: rgba(100, 100, 100, 0.25) 0px 5px 25px 0px;
+}
+
+strong:hover > span,
+strong:focus > span {
+	display: flex;
+}
+
+strong:has(span) {
+	background: radial-gradient(
+	  circle at 100%,
+	  rgb(75, 150, 75),
+	  rgb(125, 250, 125) 50%,
+	  rgb(100, 200, 100) 75%
+	);
+	background-size: 200% auto;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animatedTextGradient 1.5s linear infinite;
+
+	& span {
+		-webkit-text-fill-color: var(--text-1);
+	}
+}
+
+@keyframes animatedTextGradient {
+	to {
+	  background-position: 200% center;
+	}
 }
 
 .surface-1 {

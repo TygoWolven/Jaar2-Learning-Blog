@@ -100,3 +100,52 @@ Methode om onverwachte alternatieven te bedenken voor complexe designs. Dit doe 
 Je hebt verschillende vragen waar je 3 oplossingen voor moet hebben, denk bijvoorbeeld aan problemen voor in een verhaal: COVID, Verliefdheid of een Botbreuk. Hierbij kun je alle vragen combineren waardoor je onverwachte alternatieven krijgt voor een verhaal.
 
 AFBEELDING NAAR MORPHOLIOGISCAL CHART
+
+## The New Responsive
+
+Fluid grids, flexible images, and media queries are three technical ingredients for responsive web design, but it also requires a different way of thinking.
+- Ethan Marcote
+
+AFBEELDING VAN THE NEW RESPONSIVE
+
+## Media query features
+<strong tabindex="0">Level 3:<span>New Features since 21 May 2024</span></strong>
+
+- width
+- height
+- grid
+- scan
+- device-height
+- device-width
+- resolution
+- monochrome
+- orientation
+- aspect-ratio
+- device-aspect-ratio
+- color
+- color-index
+
+<strong tabindex="0">Level 4<span>New Features since 25 December 2021</span></strong>
+
+- update
+- overflow-block
+- overflow-inline
+- color-gamut
+- pointer 
+- hover
+- any-pointer
+- any-hover
+
+<strong tabindex="0">Level 5<span>New Features since 18 December 2021</span></strong>
+
+- environment-blending
+- dynamic-range
+- inverted-colors
+- nav-controls
+- scripting
+- prefers-color-sheme
+- forced-colors
+- prefers-contrast
+- prefers-reduced-transparency
+- prefers-reduced-motion
+- prefers-reduced-data
