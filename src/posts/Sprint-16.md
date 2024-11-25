@@ -149,3 +149,33 @@ AFBEELDING VAN THE NEW RESPONSIVE
 - prefers-reduced-transparency
 - prefers-reduced-motion
 - prefers-reduced-data
+
+## Gestalt Principes
+Gestalt principes zijn een set van regels die helpen bij het ontwerpen van een samenhangend design.
+
+**De wet van nabijheid:** <br>
+We groeperen figuren die dicht bij elkaar staan. Onze hersenen vinden dat deze bij elkaar horen.
+
+**De wet van continuïteit:** <br>
+We zien losse figuren die naast elkaar in een lijn of bocht lopen als geheel.
+
+**De wet van gelijkheid:** <br>
+Onze hersenen vinden dat figuren die er hetzelfde uitzien bij elkaar horen.
+
+**De wet van geslotenheid:** <br>
+Onze hersenen maken figuren af waarbij een stukje ontbreekt.
+
+**De wet van overeenkomst:** <br>
+Figuren die in dezelfde richting bewegen geven onze hersenen het gevoel dat ze bij elkaar horen. 
+
+**De wet van voor- en achtergrond:** <br>
+Onze hersenen onderscheiden vormen die op een achtergrond staan als losstaand figuur.
+
+**De wet van symmetrie:** <br>
+Symmetrische figuren geven onze hersenen het idee dat dingen geordend zijn. Het geeft rust.
+
+### Wat is de Law of Proximity?
+Objecten die dicht bij elkaar staan hebben de neiging om gegroepeerd te worden door ons brein. Wat zijn hier de voordelen van?
+- Het helpt de gebruiker om informatie sneller en efficienter te gebruiken
+- Het helpt een relatie te creeëren met objecten in de buurt
+- De objecten hebben vaak dezelfde eigenschappen of functionaliteiten

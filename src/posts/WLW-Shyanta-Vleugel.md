@@ -15,7 +15,7 @@ value: 2
 Triple bestaat nu 25 jaar en heeft ongeveer 250+ mensen in dienst. 
 De grootste core van Triple is development, hier komt een klein stukje design bij kijken.
 
-Heineken Ajax Qmusic NLZIET anwb Postnl vodafone ziggo linda disney nhnieuws ncoi delta zijn een aantal klanten van Triple.
+Triple heeft een hele boel klanten, denk hierbij aan Heineken, Ajax, Qmusic, NLZIET, ANWB, PostNL, Vodafone, Ziggo, Linda Disney, NHnieuws, NCOI en Delta.
 
 ## Webteam
 React/ Svelte Team 
