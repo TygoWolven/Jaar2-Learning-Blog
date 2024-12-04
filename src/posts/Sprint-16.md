@@ -179,3 +179,28 @@ Objecten die dicht bij elkaar staan hebben de neiging om gegroepeerd te worden d
 - Het helpt de gebruiker om informatie sneller en efficienter te gebruiken
 - Het helpt een relatie te creeëren met objecten in de buurt
 - De objecten hebben vaak dezelfde eigenschappen of functionaliteiten
+
+## State Management
+Toestand van je applicatie of component.
+
+Shared persistent state:
+Je wilt voorkomen dat aanpassingen in je website, voor iedereen aangepast worden.
+
+Non shared persistent state:
+
+Non shared non persistent state:
+
+Non shared semi persistent state:
+
+persistent is of de waarde wordt behouden of niet
+
+Svelte persistent stores
+
+Shared state:
+alle gebruikers delen dezelfde states.
+
+
+
+
+
+
