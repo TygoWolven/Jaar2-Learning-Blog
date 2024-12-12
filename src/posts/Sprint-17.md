@@ -41,3 +41,33 @@ Bramus is een god als het gaat om scroll-driven animations.
 
 Prompt:
 Insane ballenbak bubbelgum scroll driven animation
+
+
+## View Transitions
+
+````css
+  @view-transition {
+    navigation: auto;
+  }
+````
+
+Prompt:
+
+
+Met Javascript
+
+classList.toggle
+if (document.startViewTransition) {
+  	document.startViewTransition(function)
+} else {
+  function()
+}
+
+css
+view-transition-name: naam;
+zet op beide elementen dezelfde naam en dan worden ze gecombineerd
+
+::view-transition-group(naam) {
+  animation-duration: 3s;
+}
+
