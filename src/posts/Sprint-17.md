@@ -51,9 +51,6 @@ Insane ballenbak bubbelgum scroll driven animation
   }
 ````
 
-Prompt:
-
-
 Met Javascript
 
 classList.toggle
@@ -71,3 +68,4 @@ zet op beide elementen dezelfde naam en dan worden ze gecombineerd
   animation-duration: 3s;
 }
 
+## Audio met Javascript
