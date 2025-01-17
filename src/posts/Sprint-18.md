@@ -67,3 +67,48 @@ Een timeline is simpelweg de container die de tweens bevat. Op deze manier kun j
 
 Om een timeline te maken kun je het volgende gebruiken:
 - gsap.timeline()
+
+## Clean Code & Refactoring
+
+### Clean Code
+Robert C. Martin heeft een boek geschreven genaamd: _"Clean Code"_. Het schrijven van clean code doe je om jezelf 
+een proffesional te kunnen noemen. Er zijn geen smoesjes om minder dan je best te doen. Code is clean als het gemakkelijk 
+te begrijpen is voor iedereen in het team. Begrijpelijk betekent in dit geval: leesbaar, aanpasbaar, uitbreidbaar en onderhoudbaar.
+
+#### The Scout Rule
+Try and leave this world a little better than you found it...
+
+- Gebruik betekenisvolle namen voor variabelen, functies en bestanden.
+- Vermijd cryptische afkortingen zoals, a, x, data of temp.
+
+#### Schrijf kleine functies
+Functies moeten klein zijn en slechts één verantwoordelijkheid hebben. Lange functies zijn moeilijk te begrijpen en onderhouden.
+
+#### Gebruik goed commentaar
+Less is more. Goede code heeft weinig commentaar nodig omdat het zichzelf uitlegt. Gebruik commentaar alleen als de code zonder context niet duidelijk is.
+
+#### Maak je code leesbaar (voor mensen)
+Code wordt vaker gelezen dan geschreven. Maak het daarom intuItief en helder, alsof je schrijft voor een collega. Inspringen, witruimte en consistsentie zijn cruciaal.
+
+### Refactoring
+Refactoring is het proces van het verbeteren van code zonder de functionaliteit te veranderen.
+
+- Hernoem functie declaraties: Het doel is om de functie beter aan te laten sluiten bij de behoeften van de codebase zonder gedrag te veranderen.
+- Splits conditionals op: Complexe en onoverzichtelijke statements worden opgesplitst in kleinere stukjes.
+- Vervang loops door pipelines
+- Verwijder dode code: Overbodige of niet gebruikte code wordt opgespoord en verwijdert uit de codebase, denk hierbij aan functies die nooit worden aangeroepen.
+- Verschuif statements: Herpositioneren van code binnen een methode om de leesbaarheid en logische volgorde te verbeteren. _(Gebruik de Alt toets om makkelijk te verschuiven.)_
+
+### Sveltekit Best-practices
+/src/lib voor componenten en helpers
+/ars/routes voor layouts en pagina's
+/static voor statische assets
+
+#### Performance
+Code-splitting
+Asset preloading
+File hashing
+Request coalescing
+Parallel loading
+Pre-rendering
+Link preloading
