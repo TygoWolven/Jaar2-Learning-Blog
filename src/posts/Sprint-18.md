@@ -112,3 +112,29 @@ Request coalescing
 Parallel loading
 Pre-rendering
 Link preloading
+
+## WebGL / Shaders / Three.js
+Three.js is een JavaScript bibliotheek voor het maken van 3D werelden, animaties en visualisaties op het web. Het bestaat uit 3 kernonderdelen: 
+- Scene - is je werkomgeving waar de 3D objecten zich bevinden
+- Camera - waarmee je naar de 3D objecten gaat kijken (het oogpunt)
+- Renderer - het systeem dat alles gaat tekenen
+
+### Cameras
+Perspective camera - Hiermee kun je perspectief zien (3D)
+Orthographic camera - Hiermee zie je geen perspectief (2D)
+
+### Meshes
+Geometry en een material is wat een mesh vormt. Een mesh kan bijvoorbeeld een bankje zijn die in de scene staat. 
+
+### Shaders
+Vertex shader
+Fragment shader is de belangrijkste shader, want deze gaat een kleur toekennen aan wat je getekent hebt.
+
+### Tutorial
+Bruno Simons heeft een gratis tutorial voor mensen die willen beginnen met 3D op het web:
+
+https://threejs-journey.com/#summary
+https://tympanus.net/codrops/
+
+## WebGL
+Een handige extensie om te beginnen met WebGL is Spector.js.
