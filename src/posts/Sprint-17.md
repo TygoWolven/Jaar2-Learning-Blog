@@ -22,14 +22,14 @@ Idee: Een cocktail glas die gevuld wordt, maar breekt door een kogel of iets and
 FDND Concept Roullete
 
 ## Scroll Driven Animations
-````css
+````
 @supports (animation-timeline: scroll()) {
     animation: rotateX linear;
     animation-timeline: scroll(root y);
 }
 ````
 
-````css
+````
 @property --skull-lightness {
     syntax: '<percentage';
     initial-value: 100%;
@@ -45,7 +45,7 @@ Insane ballenbak bubbelgum scroll driven animation
 
 ## View Transitions
 
-````css
+````
   @view-transition {
     navigation: auto;
   }
@@ -53,19 +53,20 @@ Insane ballenbak bubbelgum scroll driven animation
 
 Met Javascript
 
-classList.toggle
-if (document.startViewTransition) {
-  	document.startViewTransition(function)
-} else {
-  function()
-}
+````
+  classList.toggle
+  if (document.startViewTransition) {
+    	document.startViewTransition(function)
+  } else {
+    function()
+  }
+````
 
-css
 view-transition-name: naam;
 zet op beide elementen dezelfde naam en dan worden ze gecombineerd
 
-::view-transition-group(naam) {
-  animation-duration: 3s;
-}
-
-## Audio met Javascript
+````
+  ::view-transition-group(naam) {
+    animation-duration: 3s;
+  }
+````
