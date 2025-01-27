@@ -138,3 +138,53 @@ https://tympanus.net/codrops/
 
 ## WebGL
 Een handige extensie om te beginnen met WebGL is Spector.js.
+
+## Van offerte naar productie
+Vraag - gesprek - offerte - design - development - oplevering
+
+Hoe kom je aan projecten? Je netwerk!
+
+### Wat wil de opdrachtgever? (echt)
+Briefing
+Verwachtingen
+Wat kan jij, wat kan ik?
+Nee zeggen, wil ik dit wel?
+Wat is het doel van de website?
+
+De 3 P's:
+- Prestige
+- Poen
+- Plezier
+
+### Wat staat er in een offerte?
+Wat ga je doen? En wat zeker niet!
+Begroting (Lage inschatting en een hoge inschatting op basis van werkuren)
+Planning en afspraken
+Algemene voorwaarden (FENIT)
+
+TheGOODList bevat uurtarieven in verschillende branches.
+
+### Van schets naar ontwerp
+Grove schetsen laten zien
+Daarna pas high fi 
+Dan snel bouwen
+Design changes on the way
+
+### Bouwen, bouwen, bouwen
+Fundering, data model
+Framework kiezen
+CMS? Zeker doen
+Testen
+Acceptatie omgeving opzetten (Development omgeving (main), Testserver, Acceptatie omgeving (release candidate branch die de klant kan zien), productie omgeving (live voor iedereen)) 
+
+### Feestje! En money time
+Afspraken over oplevering
+Garantie, bug fixing
+Factuur sturen (Moneybird als tool voor facturen etc.)
+
+### Service level agreement (SLA)
+Maak afspraken voor na de oplevering:
+- Hostingkosten?
+- Updates?
+- Maandelijkse vaste uren?
+- Nacalculatie?
